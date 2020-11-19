@@ -26,15 +26,16 @@ public class FillingChatBox extends SampleTestSuiteBase
 
 		report.info("Switching to frame: " );
 		browser.getClick().clickButtonByName(LocatorType.TAGNAME, "iframe");
-		
+
+		report.info("Clicking chat icon");
+		browser.getClick().doubleClickOnElementByXpath(LocatorType.NAME, "chat-widget");
 		/*
-		 * report.info("pressing enter key");
 		 * browser.getKey().pressKey(LocatorType.NAME, "q", KeyType.ENTER);
 		 * report.info("waiting for 2 second"); browser.getWait().HardPause(2000);
-		 * String text = browser.getCurrentPageTitle();
-		 * report.info("verifying page title"); Verify.verifyString(text,
-		 * "Selenium - Google Search", "Verifying String Message ");
 		 */
+		String text = browser.getCurrentPageTitle();
+		report.info("verifying page title");
+		Verify.verifyString(text, "phptravels", "Verifying String Message ");
 
 	}
 }
