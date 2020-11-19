@@ -2,7 +2,8 @@ package com.atmecs.falcon_framework.constant;
 
 import java.io.File;
 
-public class FilePathConstants {
+public class FilePathConstants 
+{
 	public final static String USER_HOME = System.getProperty("user.dir") + File.separator;
 
 	public final static String RESOURCES_HOME = USER_HOME + "src" + File.separator + "main" + File.separator
@@ -15,5 +16,7 @@ public class FilePathConstants {
 
 	public final static String HOME_LOCATOR_PATH = ATMECS_HOME
 			+ "HomeAtmecsIncDigitalSolutionsProductEngineeringServices.properties";
+	
+	public final static String FORM_FILLING_PATH = ATMECS_HOME + "formfilling" + File.separator;
 
 }

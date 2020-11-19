@@ -1,6 +1,7 @@
 package com.atmecs.falcon_framework.constant;
 
-public class LocatorKeyContainer {
+public class LocatorKeyContainer 
+{
 	public static final String LEARN_MORE_LINK = "learnMore_link";
 	public static final String CONTACT_US_LINK = "contactUs_link";
 	public static final String INPUT_1 = "yourname_input";
