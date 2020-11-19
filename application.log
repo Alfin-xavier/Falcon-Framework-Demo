@@ -1,4 +1,5 @@
-2020-11-19 15:55:28,308  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Opening browser: chrome
-2020-11-19 15:55:36,637  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Maximizing browser window
-2020-11-19 15:55:39,557  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
-2020-11-19 15:55:39,776 ERROR [com.atmecs.falcon_framework.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
+2020-11-19 16:16:29,848  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Opening browser: chrome
+2020-11-19 16:16:37,944  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Maximizing browser window
+2020-11-19 16:16:40,065  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Switching to frame: 
+2020-11-19 16:16:40,957  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
+2020-11-19 16:16:41,095 ERROR [com.atmecs.falcon_framework.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false

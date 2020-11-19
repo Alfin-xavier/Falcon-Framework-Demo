@@ -24,15 +24,17 @@ public class FillingChatBox extends SampleTestSuiteBase
 		report.info("Maximizing browser window");
 		browser.maximizeWindow();
 
-		report.info("entering text: " + "Selenium");
-		browser.getTextField().enterTextField(LocatorType.NAME, "q", "Selenium");
-		report.info("pressing enter key");
-		browser.getKey().pressKey(LocatorType.NAME, "q", KeyType.ENTER);
-		report.info("waiting for 2 second");
-		browser.getWait().HardPause(2000);
-		String text = browser.getCurrentPageTitle();
-		report.info("verifying page title");
-		Verify.verifyString(text, "Selenium - Google Search", "Verifying String Message ");
+		report.info("Switching to frame: " );
+		browser.getClick().clickButtonByName(LocatorType.TAGNAME, "iframe");
+		
+		/*
+		 * report.info("pressing enter key");
+		 * browser.getKey().pressKey(LocatorType.NAME, "q", KeyType.ENTER);
+		 * report.info("waiting for 2 second"); browser.getWait().HardPause(2000);
+		 * String text = browser.getCurrentPageTitle();
+		 * report.info("verifying page title"); Verify.verifyString(text,
+		 * "Selenium - Google Search", "Verifying String Message ");
+		 */
 
 	}
 }
