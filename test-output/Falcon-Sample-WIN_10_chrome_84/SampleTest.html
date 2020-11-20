@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 19 16:44:20 IST 2020</td>
+<td>Started on:</td><td>Fri Nov 20 13:26:15 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>12 seconds (12101 ms)</td>
+<tr><td>Total time:</td><td>22 seconds (22430 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,34 +76,32 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest()'><b>sampleTest</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: WIN, 10, chrome, 84<br/>
-<a href="#Output-428569727" onClick='toggleBox("Output-428569727", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-823243374" onClick='toggleBox("Output-823243374", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-428569727" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-428569727">
+<a href="#Output-823243374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-823243374">
 Opening browser: chrome<br/>
 Maximizing browser window<br/>
-Switching to frame: <br/>
-No such element found by Name no such element: Unable to locate element: {"method":"css selector","selector":"*[name='iframe']"}
-  (Session info: chrome=86.0.4240.198)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 49afaae2e39e313b326e78fc93395419
-*** Element info: {Using=name, value=iframe}<br/>
+Waiting for sometimes to enable chatbox<br/>
+Switching to frame<br/>
 </div>
 </td>
-<td><div><pre>java.lang.NullPointerException
-	at com.atmecs.falcon.automation.ui.selenium.Click.clickButtonByName(Click.java:35)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest(FillingChatBox.java:28)
+<td><div><pre>org.openqa.selenium.NoSuchFrameException: No frame element found by name or id //iframe[@name=&apos;chat-widget&apos;]
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
+	at com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest(FillingChatBox.java:34)
 	at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:63)
 	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace428569727", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace428569727'><pre>java.lang.NullPointerException
-	at com.atmecs.falcon.automation.ui.selenium.Click.clickButtonByName(Click.java:35)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest(FillingChatBox.java:28)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace823243374", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace823243374'><pre>org.openqa.selenium.NoSuchFrameException: No frame element found by name or id //iframe[@name=&apos;chat-widget&apos;]
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
+	at com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest(FillingChatBox.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -134,8 +132,8 @@ Session ID: 49afaae2e39e313b326e78fc93395419
 	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>11</td>
-<td>com.atmecs.falcon_framework.testscript.FillingChatBox@5e32a402</td></tr>
+<td>21</td>
+<td>com.atmecs.falcon_framework.testscript.FillingChatBox@48b52a5c</td></tr>
 </table><p>
 </body>
 </html>

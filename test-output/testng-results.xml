@@ -44,30 +44,22 @@
       <![CDATA[Maximizing browser window]]>
     </line>
     <line>
-      <![CDATA[Switching to frame: ]]>
+      <![CDATA[Waiting for sometimes to enable chatbox]]>
     </line>
     <line>
-      <![CDATA[No such element found by Name no such element: Unable to locate element: {"method":"css selector","selector":"*[name='iframe']"}
-  (Session info: chrome=86.0.4240.198)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 49afaae2e39e313b326e78fc93395419
-*** Element info: {Using=name, value=iframe}]]>
+      <![CDATA[Switching to frame]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-11-19T11:14:20Z" name="Falcon-Sample-WIN_10_chrome_84" finished-at="2020-11-19T11:14:33Z" duration-ms="12101">
+  <suite started-at="2020-11-20T07:56:15Z" name="Falcon-Sample-WIN_10_chrome_84" finished-at="2020-11-20T07:56:38Z" duration-ms="22430">
     <groups>
     </groups>
-    <test started-at="2020-11-19T11:14:20Z" name="SampleTest" finished-at="2020-11-19T11:14:33Z" duration-ms="12101">
+    <test started-at="2020-11-20T07:56:15Z" name="SampleTest" finished-at="2020-11-20T07:56:38Z" duration-ms="22430">
       <class name="com.atmecs.falcon_framework.testscript.FillingChatBox">
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@5e32a402]" started-at="2020-11-19T11:14:21Z" name="preSetup" finished-at="2020-11-19T11:14:21Z" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@48b52a5c]" started-at="2020-11-20T07:56:15Z" name="preSetup" finished-at="2020-11-20T07:56:15Z" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method signature="sampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@5e32a402]" started-at="2020-11-19T11:14:21Z" name="sampleTest" finished-at="2020-11-19T11:14:32Z" duration-ms="11214" status="FAIL">
+        <test-method signature="sampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@48b52a5c]" started-at="2020-11-20T07:56:15Z" name="sampleTest" finished-at="2020-11-20T07:56:37Z" duration-ms="21881" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -90,11 +82,20 @@ Session ID: 49afaae2e39e313b326e78fc93395419
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[No frame element found by name or id //iframe[@name='chat-widget']
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.atmecs.falcon.automation.ui.selenium.Click.clickButtonByName(Click.java:35)
-at com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest(FillingChatBox.java:28)
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id //iframe[@name='chat-widget']
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
+at com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest(FillingChatBox.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -126,7 +127,7 @@ at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
           <reporter-output>
             <line>
               <![CDATA[Opening browser: chrome]]>
@@ -135,22 +136,14 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               <![CDATA[Maximizing browser window]]>
             </line>
             <line>
-              <![CDATA[Switching to frame: ]]>
+              <![CDATA[Waiting for sometimes to enable chatbox]]>
             </line>
             <line>
-              <![CDATA[No such element found by Name no such element: Unable to locate element: {"method":"css selector","selector":"*[name='iframe']"}
-  (Session info: chrome=86.0.4240.198)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 49afaae2e39e313b326e78fc93395419
-*** Element info: {Using=name, value=iframe}]]>
+              <![CDATA[Switching to frame]]>
             </line>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@5e32a402]" started-at="2020-11-19T11:14:32Z" name="teardown" finished-at="2020-11-19T11:14:33Z" duration-ms="742" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@48b52a5c]" started-at="2020-11-20T07:56:37Z" name="teardown" finished-at="2020-11-20T07:56:38Z" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

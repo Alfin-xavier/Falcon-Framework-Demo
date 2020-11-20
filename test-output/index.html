@@ -129,9 +129,12 @@
                   </a> <!-- sampleTest(WIN, 10, chrome, 84) -->
                   <span class="method-name">sampleTest</span>
                   <span class="parameters">(WIN, 10, chrome, 84)</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at com.atmecs.falcon.automation.ui.selenium.Click.clickButtonByName(Click.java:35)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest(FillingChatBox.java:28)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id //iframe[@name=&apos;chat-widget&apos;]
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
+	at com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest(FillingChatBox.java:34)
 	at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:63)
 	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
 	at java.base/java.lang.Thread.run(Thread.java:832)
@@ -201,12 +204,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'sampleTest')
 data.setCell(0, 2, 'com.atmecs.falcon_framework.testscript.FillingChatBox')
-data.setCell(0, 3, 11214);
+data.setCell(0, 3, 21881);
 window.suiteTableData['Falcon-Sample-WIN_10_chrome_84']= { tableData: data, tableDiv: 'times-div-Falcon-Sample-WIN_10_chrome_84'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Falcon-Sample-WIN_10_chrome_84">
               </div> <!-- times-div-Falcon-Sample-WIN_10_chrome_84 -->
             </div> <!-- times-div -->
@@ -222,16 +225,8 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Opening browser: chrome</span>
                 <span class="reporter-method-output">Maximizing browser window</span>
-                <span class="reporter-method-output">Switching to frame: </span>
-                <span class="reporter-method-output">No such element found by Name no such element: Unable to locate element: {"method":"css selector","selector":"*[name='iframe']"}
-  (Session info: chrome=86.0.4240.198)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 49afaae2e39e313b326e78fc93395419
-*** Element info: {Using=name, value=iframe}</span>
+                <span class="reporter-method-output">Waiting for sometimes to enable chatbox</span>
+                <span class="reporter-method-output">Switching to frame</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -258,11 +253,11 @@ Session ID: 49afaae2e39e313b326e78fc93395419
                 <img src="failed.png">
                 </img>
                 <span class="method-name">sampleTest(WIN, 10, chrome, 84)</span>
-                <span class="method-start">131 ms</span>
+                <span class="method-start">80 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">11347 ms</span>
+                <span class="method-start">21967 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
