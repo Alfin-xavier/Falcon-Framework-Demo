@@ -1,14 +1,14 @@
-2020-11-24 15:31:34,092  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Opening browser: chrome
-2020-11-24 15:31:42,178  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Maximizing browser window
-2020-11-24 15:31:44,299  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Waiting for sometimes to enable chatbox
-2020-11-24 15:31:54,300  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Switching to frame
-2020-11-24 15:31:54,489  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] WindowHandlerImpl:51 - Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (757a6ebc07e7602e016e6cc089616ed1)] -> xpath: //iframe[@id='chat-widget']]
-2020-11-24 15:31:59,493  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Clicking chat icon
-2020-11-24 15:32:04,782  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Entering name
-2020-11-24 15:32:10,034  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Entering number
-2020-11-24 15:32:15,336  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Entering mail
-2020-11-24 15:32:20,660  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Clicking the Checkbox
-2020-11-24 15:32:25,859  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Clicking dropdown
-2020-11-24 15:32:31,051  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Starting the chat
-2020-11-24 15:32:34,127  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
-2020-11-24 15:32:34,201 ERROR [com.atmecs.falcon_framework.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
+2020-11-24 18:02:03,220  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Opening browser: chrome
+2020-11-24 18:02:10,968  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Maximizing browser window
+2020-11-24 18:02:13,094  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Waiting for sometimes to enable chatbox
+2020-11-24 18:02:23,095  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Switching to frame
+2020-11-24 18:02:23,183  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] WindowHandlerImpl:51 - Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (26b742026b27ae5b5b2880d3caece6ce)] -> xpath: //iframe[@id='chat-widget']]
+2020-11-24 18:02:28,184  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Clicking chat icon
+2020-11-24 18:02:33,315  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Entering name
+2020-11-24 18:02:38,400  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Entering number
+2020-11-24 18:02:43,533  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Entering mail
+2020-11-24 18:02:48,882  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Clicking the Checkbox
+2020-11-24 18:02:54,109  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Clicking dropdown
+2020-11-24 18:02:59,405  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Starting the chat
+2020-11-24 18:03:02,433  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
+2020-11-24 18:03:02,693 ERROR [com.atmecs.falcon_framework.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
