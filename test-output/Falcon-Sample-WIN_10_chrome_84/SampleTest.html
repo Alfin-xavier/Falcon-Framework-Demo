@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>SampleTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 23 14:59:09 IST 2020</td>
+<td>Started on:</td><td>Tue Nov 24 15:31:34 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>22 seconds (22517 ms)</td>
+<tr><td>Total time:</td><td>59 seconds (59905 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,70 +76,27 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest()'><b>sampleTest</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: WIN, 10, chrome, 84<br/>
-<a href="#Output-1569191941" onClick='toggleBox("Output-1569191941", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-823243374" onClick='toggleBox("Output-823243374", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1569191941" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1569191941">
+<a href="#Output-823243374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-823243374">
 Opening browser: chrome<br/>
 Maximizing browser window<br/>
 Waiting for sometimes to enable chatbox<br/>
 Switching to frame<br/>
-Unable to locate frame with id //iframe[@id='chat-widget'][Ljava.lang.StackTraceElement;@2deea693<br/>
-Switched successfully<br/>
+Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (757a6ebc07e7602e016e6cc089616ed1)] -> xpath: //iframe[@id='chat-widget']]<br/>
 Clicking chat icon<br/>
-No such element found by Name invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=86.0.4240.198)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b6172f1c4ad6a11936b23cd8587b82b6
-*** Element info: {Using=name, value=//div[@class='lc-xqoq0v e16i86ec0']}<br/>
+Entering name<br/>
+Entering number<br/>
+Entering mail<br/>
+Clicking the Checkbox<br/>
+Clicking dropdown<br/>
+Starting the chat<br/>
 </div>
 </td>
-<td><div><pre>java.lang.NullPointerException
-	at com.atmecs.falcon.automation.ui.selenium.Click.clickButtonByName(Click.java:35)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest(FillingChatBox.java:40)
-	at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:63)
-	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1569191941", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1569191941'><pre>java.lang.NullPointerException
-	at com.atmecs.falcon.automation.ui.selenium.Click.clickButtonByName(Click.java:35)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest(FillingChatBox.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:63)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-</pre></div></td>
-<td>21</td>
-<td>com.atmecs.falcon_framework.testscript.FillingChatBox@37368834</td></tr>
+<td></td>
+<td>59</td>
+<td>com.atmecs.falcon_framework.testscript.FillingChatBox@48b52a5c</td></tr>
 </table><p>
 </body>
 </html>

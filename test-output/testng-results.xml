@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
@@ -50,36 +50,40 @@
       <![CDATA[Switching to frame]]>
     </line>
     <line>
-      <![CDATA[Unable to locate frame with id //iframe[@id='chat-widget'][Ljava.lang.StackTraceElement;@2deea693]]>
-    </line>
-    <line>
-      <![CDATA[Switched successfully]]>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (757a6ebc07e7602e016e6cc089616ed1)] -> xpath: //iframe[@id='chat-widget']]]]>
     </line>
     <line>
       <![CDATA[Clicking chat icon]]>
     </line>
     <line>
-      <![CDATA[No such element found by Name invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=86.0.4240.198)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b6172f1c4ad6a11936b23cd8587b82b6
-*** Element info: {Using=name, value=//div[@class='lc-xqoq0v e16i86ec0']}]]>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[Entering number]]>
+    </line>
+    <line>
+      <![CDATA[Entering mail]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Starting the chat]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-11-23T09:29:09Z" name="Falcon-Sample-WIN_10_chrome_84" finished-at="2020-11-23T09:29:32Z" duration-ms="22517">
+  <suite started-at="2020-11-24T10:01:34Z" name="Falcon-Sample-WIN_10_chrome_84" finished-at="2020-11-24T10:02:33Z" duration-ms="59905">
     <groups>
     </groups>
-    <test started-at="2020-11-23T09:29:09Z" name="SampleTest" finished-at="2020-11-23T09:29:32Z" duration-ms="22517">
+    <test started-at="2020-11-24T10:01:34Z" name="SampleTest" finished-at="2020-11-24T10:02:33Z" duration-ms="59905">
       <class name="com.atmecs.falcon_framework.testscript.FillingChatBox">
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@37368834]" started-at="2020-11-23T09:29:09Z" name="preSetup" finished-at="2020-11-23T09:29:09Z" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@48b52a5c]" started-at="2020-11-24T10:01:34Z" name="preSetup" finished-at="2020-11-24T10:01:34Z" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method signature="sampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@37368834]" started-at="2020-11-23T09:29:09Z" name="sampleTest" finished-at="2020-11-23T09:29:31Z" duration-ms="21513" status="FAIL">
+        <test-method signature="sampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@48b52a5c]" started-at="2020-11-24T10:01:34Z" name="sampleTest" finished-at="2020-11-24T10:02:33Z" duration-ms="59157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,43 +106,6 @@ Session ID: b6172f1c4ad6a11936b23cd8587b82b6
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.atmecs.falcon.automation.ui.selenium.Click.clickButtonByName(Click.java:35)
-at com.atmecs.falcon_framework.testscript.FillingChatBox.sampleTest(FillingChatBox.java:40)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:63)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[Opening browser: chrome]]>
@@ -153,28 +120,32 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Unable to locate frame with id //iframe[@id='chat-widget'][Ljava.lang.StackTraceElement;@2deea693]]>
-            </line>
-            <line>
-              <![CDATA[Switched successfully]]>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (757a6ebc07e7602e016e6cc089616ed1)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
             </line>
             <line>
-              <![CDATA[No such element found by Name invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=86.0.4240.198)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b6172f1c4ad6a11936b23cd8587b82b6
-*** Element info: {Using=name, value=//div[@class='lc-xqoq0v e16i86ec0']}]]>
+              <![CDATA[Entering name]]>
+            </line>
+            <line>
+              <![CDATA[Entering number]]>
+            </line>
+            <line>
+              <![CDATA[Entering mail]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the Checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Starting the chat]]>
             </line>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@37368834]" started-at="2020-11-23T09:29:31Z" name="teardown" finished-at="2020-11-23T09:29:32Z" duration-ms="906" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@48b52a5c]" started-at="2020-11-24T10:02:33Z" name="teardown" finished-at="2020-11-24T10:02:33Z" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

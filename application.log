@@ -1,9 +1,14 @@
-2020-11-23 14:59:09,900  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Opening browser: chrome
-2020-11-23 14:59:19,067  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Maximizing browser window
-2020-11-23 14:59:21,205  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Waiting for sometimes to enable chatbox
-2020-11-23 14:59:31,206  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Switching to frame
-2020-11-23 14:59:31,338  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] WindowHandlerImpl:51 - Unable to locate frame with id //iframe[@id='chat-widget'][Ljava.lang.StackTraceElement;@2deea693
-2020-11-23 14:59:31,340  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Switched successfully
-2020-11-23 14:59:31,340  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Clicking chat icon
-2020-11-23 14:59:32,371  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
-2020-11-23 14:59:32,620 ERROR [com.atmecs.falcon_framework.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
+2020-11-24 15:31:34,092  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Opening browser: chrome
+2020-11-24 15:31:42,178  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Maximizing browser window
+2020-11-24 15:31:44,299  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Waiting for sometimes to enable chatbox
+2020-11-24 15:31:54,300  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Switching to frame
+2020-11-24 15:31:54,489  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] WindowHandlerImpl:51 - Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (757a6ebc07e7602e016e6cc089616ed1)] -> xpath: //iframe[@id='chat-widget']]
+2020-11-24 15:31:59,493  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Clicking chat icon
+2020-11-24 15:32:04,782  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Entering name
+2020-11-24 15:32:10,034  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Entering number
+2020-11-24 15:32:15,336  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Entering mail
+2020-11-24 15:32:20,660  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Clicking the Checkbox
+2020-11-24 15:32:25,859  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Clicking dropdown
+2020-11-24 15:32:31,051  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SampleTestScript:51 - Starting the chat
+2020-11-24 15:32:34,127  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
+2020-11-24 15:32:34,201 ERROR [com.atmecs.falcon_framework.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false

@@ -17,6 +17,6 @@ public class FilePathConstants
 	public final static String HOME_LOCATOR_PATH = ATMECS_HOME
 			+ "HomeAtmecsIncDigitalSolutionsProductEngineeringServices.properties";
 	
-	public final static String FORM_FILLING_PATH = ATMECS_HOME + "formfilling" + File.separator;
+	public final static String FORM_FILLING_PATH = ATMECS_HOME + "HandlingFrames.properties";
 
 }
