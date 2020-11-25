@@ -27,7 +27,7 @@ public class FillingChatBox extends SampleTestSuiteBase
 		browser.maximizeWindow();
 
 		report.info("Waiting for sometimes to enable chatbox");
-		browser.getWait().safeWait(10000);
+		browser.getWait().safeWait(15000);
 
 		report.info("Switching to frame");
 		browser.getWindowHandler().handleFrame().switchToFrame(browser.getDriver()

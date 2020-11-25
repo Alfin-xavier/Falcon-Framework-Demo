@@ -50,7 +50,7 @@
       <![CDATA[Switching to frame]]>
     </line>
     <line>
-      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (26b742026b27ae5b5b2880d3caece6ce)] -> xpath: //iframe[@id='chat-widget']]]]>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (02b71bfbc6402f18380f665f78bda9e2)] -> xpath: //iframe[@id='chat-widget']]]]>
     </line>
     <line>
       <![CDATA[Clicking chat icon]]>
@@ -74,16 +74,16 @@
       <![CDATA[Starting the chat]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-11-24T12:32:03Z" name="Falcon-Sample-WIN_10_chrome_84" finished-at="2020-11-24T12:33:02Z" duration-ms="59098">
+  <suite started-at="2020-11-25T07:38:39Z" name="Falcon-Sample-WIN_10_chrome_84" finished-at="2020-11-25T07:39:44Z" duration-ms="64978">
     <groups>
     </groups>
-    <test started-at="2020-11-24T12:32:03Z" name="SampleTest" finished-at="2020-11-24T12:33:02Z" duration-ms="59098">
+    <test started-at="2020-11-25T07:38:39Z" name="SampleTest" finished-at="2020-11-25T07:39:44Z" duration-ms="64978">
       <class name="com.atmecs.falcon_framework.testscript.FillingChatBox">
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@5e32a402]" started-at="2020-11-24T12:32:03Z" name="preSetup" finished-at="2020-11-24T12:32:03Z" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@11b9326a]" started-at="2020-11-25T07:38:39Z" name="preSetup" finished-at="2020-11-25T07:38:39Z" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method signature="sampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@5e32a402]" started-at="2020-11-24T12:32:03Z" name="sampleTest" finished-at="2020-11-24T12:33:01Z" duration-ms="58437" status="PASS">
+        <test-method signature="sampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@11b9326a]" started-at="2020-11-25T07:38:39Z" name="sampleTest" finished-at="2020-11-25T07:39:43Z" duration-ms="64279" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (26b742026b27ae5b5b2880d3caece6ce)] -> xpath: //iframe[@id='chat-widget']]]]>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (02b71bfbc6402f18380f665f78bda9e2)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
@@ -145,7 +145,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@5e32a402]" started-at="2020-11-24T12:33:01Z" name="teardown" finished-at="2020-11-24T12:33:02Z" duration-ms="577" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@11b9326a]" started-at="2020-11-25T07:39:43Z" name="teardown" finished-at="2020-11-25T07:39:44Z" duration-ms="577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

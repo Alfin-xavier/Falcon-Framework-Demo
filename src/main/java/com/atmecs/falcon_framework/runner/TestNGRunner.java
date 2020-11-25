@@ -24,7 +24,8 @@ import com.beust.jcommander.internal.Lists;
  * for each child suite in the existing parent Xml Suite and executes
  * @author nv092106
  */
-public class TestNGRunner {
+public class TestNGRunner 
+{
     private static AbstractTestNGEngine testNGEngine = new TestNGEngineFactory()
             .getTestNGEngine(TestNGEngineTemplateType.DESIRED_SUITE_FOR_GIVEN_MODULES);
     @SuppressWarnings("rawtypes")
@@ -34,7 +35,8 @@ public class TestNGRunner {
     private static TestDataProvider dataProvider = TestDataProvider.getInstance();
     private static ReportLogService report = new ReportLogServiceImpl(TestNGRunner.class);
 
-    private static void initialize() throws Exception {
+    private static void initialize() throws Exception
+    {
         // Custom Listener to testng
         listners.add(CustomListener.class);
         listners.add(SlackReportListener.class);
