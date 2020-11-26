@@ -15,8 +15,6 @@ import com.atmecs.falcon_framework.util.ReadingDataFromXslx;
 public class SampleTestSuiteBase {
 	public Browser browser;
 
-	
-
 	@BeforeClass
 	public void preSetup() {
 		browser = new Browser();
