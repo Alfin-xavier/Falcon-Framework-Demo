@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_84" class="navigator-link">
-              <span class="suite-name border-passed">Falcon-Sample-WIN_10_chrome_84</span>
+              <span class="suite-name border-failed">Falcon-Sample-WIN_10_chrome_84</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_84" class="hide-methods passed suite-Falcon-Sample-WIN_10_chrome_84"> (hide)</a> <!-- hide-methods passed suite-Falcon-Sample-WIN_10_chrome_84 -->
-                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_84" class="show-methods passed suite-Falcon-Sample-WIN_10_chrome_84"> (show)</a> <!-- show-methods passed suite-Falcon-Sample-WIN_10_chrome_84 -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_84" class="hide-methods failed suite-Falcon-Sample-WIN_10_chrome_84"> (hide)</a> <!-- hide-methods failed suite-Falcon-Sample-WIN_10_chrome_84 -->
+                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_84" class="show-methods failed suite-Falcon-Sample-WIN_10_chrome_84"> (show)</a> <!-- show-methods failed suite-Falcon-Sample-WIN_10_chrome_84 -->
                     </span>
-                    <div class="method-list-content passed suite-Falcon-Sample-WIN_10_chrome_84">
+                    <div class="method-list-content failed suite-Falcon-Sample-WIN_10_chrome_84">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_84" title="com.atmecs.falcon_framework.testscript.FillingChatBox" class="method navigator-link" hash-for-method="sampleTest(WIN, 10, chrome, 84)">sampleTest(WIN, 10, chrome, 84)</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_84" title="com.atmecs.falcon_framework.testscript.FillingChatBox" class="method navigator-link" hash-for-method="Form_filling">Form_filling</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Falcon-Sample-WIN_10_chrome_84 -->
+                    </div> <!-- method-list-content failed suite-Falcon-Sample-WIN_10_chrome_84 -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,22 +117,30 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Falcon-Sample-WIN_10_chrome_84" class="panel Falcon-Sample-WIN_10_chrome_84">
-          <div class="suite-Falcon-Sample-WIN_10_chrome_84-class-passed">
+          <div class="suite-Falcon-Sample-WIN_10_chrome_84-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.atmecs.falcon_framework.testscript.FillingChatBox</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="sampleTest(WIN, 10, chrome, 84)">
-                  </a> <!-- sampleTest(WIN, 10, chrome, 84) -->
-                  <span class="method-name">sampleTest</span>
-                  <span class="parameters">(WIN, 10, chrome, 84)</span>
+                  <a name="Form_filling">
+                  </a> <!-- Form_filling -->
+                  <span class="method-name">Form_filling</span>
+                  <div class="stack-trace">org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: Form_filling([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) abc,(java.lang.String) 8.574858756E9,(java.lang.String) abc@gmail.com]
+	at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:65)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Falcon-Sample-WIN_10_chrome_84-class-passed -->
+          </div> <!-- suite-Falcon-Sample-WIN_10_chrome_84-class-failed -->
         </div> <!-- panel Falcon-Sample-WIN_10_chrome_84 -->
         <div panel-name="test-xml-Falcon-Sample-WIN_10_chrome_84" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -191,14 +199,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'sampleTest')
+data.setCell(0, 1, 'Form_filling')
 data.setCell(0, 2, 'com.atmecs.falcon_framework.testscript.FillingChatBox')
-data.setCell(0, 3, 64279);
+data.setCell(0, 3, 548);
 window.suiteTableData['Falcon-Sample-WIN_10_chrome_84']= { tableData: data, tableDiv: 'times-div-Falcon-Sample-WIN_10_chrome_84'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 548 ms</span>
               <div id="times-div-Falcon-Sample-WIN_10_chrome_84">
               </div> <!-- times-div-Falcon-Sample-WIN_10_chrome_84 -->
             </div> <!-- times-div -->
@@ -209,23 +217,6 @@ return data;
             <span class="header-content">Reporter output for Falcon-Sample-WIN_10_chrome_84</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">sampleTest(WIN, 10, chrome, 84)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Opening browser: chrome</span>
-                <span class="reporter-method-output">Maximizing browser window</span>
-                <span class="reporter-method-output">Waiting for sometimes to enable chatbox</span>
-                <span class="reporter-method-output">Switching to frame</span>
-                <span class="reporter-method-output">Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (02b71bfbc6402f18380f665f78bda9e2)] -> xpath: //iframe[@id='chat-widget']]</span>
-                <span class="reporter-method-output">Clicking chat icon</span>
-                <span class="reporter-method-output">Entering name</span>
-                <span class="reporter-method-output">Entering number</span>
-                <span class="reporter-method-output">Entering mail</span>
-                <span class="reporter-method-output">Clicking the Checkbox</span>
-                <span class="reporter-method-output">Clicking dropdown</span>
-                <span class="reporter-method-output">Starting the chat</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Falcon-Sample-WIN_10_chrome_84" class="panel">
@@ -246,13 +237,9 @@ return data;
                 <span class="method-name">preSetup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">sampleTest(WIN, 10, chrome, 84)</span>
-                <span class="method-start">107 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">64391 ms</span>
+                <span class="method-start">690 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

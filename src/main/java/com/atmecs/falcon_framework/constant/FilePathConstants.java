@@ -18,5 +18,9 @@ public class FilePathConstants
 			+ "HomeAtmecsIncDigitalSolutionsProductEngineeringServices.properties";
 	
 	public final static String FORM_FILLING_PATH = ATMECS_HOME + "HandlingFrames.properties";
+	
+	public final static String TESTDATA_HOME = RESOURCES_HOME + "testdatas" + File.separator;
+	public final static String HANDLINGFRAMES_FILE = TESTDATA_HOME + "HandlingFrames.xlsx";
+	
 
 }
