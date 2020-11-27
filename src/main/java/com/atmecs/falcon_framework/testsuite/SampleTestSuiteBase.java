@@ -3,6 +3,7 @@
  */
 package com.atmecs.falcon_framework.testsuite;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
 
 import org.testng.annotations.AfterClass;
@@ -26,7 +27,7 @@ public class SampleTestSuiteBase {
 	}
 
 	@DataProvider
-	public Object[][] readData(Method method)
+	public Object[][] readData(Method method) throws IOException
 	{
 		ReadingDataFromXslx.readExcelData(method.getName());
 		

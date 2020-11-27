@@ -1,60 +1,731 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable handlingframes is: handlingframes]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable WIN_10_chrome_84 is: WIN_10_chrome_84]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [Falcon]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [handlingframes]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_84]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_84">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="84"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.falcon_framework.testscript.FillingChatBox"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_84 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for sometimes to enable chatbox]]>
+    </line>
+    <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (02a887942303951f2a854f6579a36062)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[Entering number]]>
+    </line>
+    <line>
+      <![CDATA[Entering mail]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Starting the chat]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for sometimes to enable chatbox]]>
+    </line>
+    <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (cc53e9bc6466ff6f9e820674435c59db)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[Entering number]]>
+    </line>
+    <line>
+      <![CDATA[Entering mail]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Starting the chat]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for sometimes to enable chatbox]]>
+    </line>
+    <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (3de61f1dde9ccdee591527526d0c13d2)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[Entering number]]>
+    </line>
+    <line>
+      <![CDATA[Entering mail]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Starting the chat]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for sometimes to enable chatbox]]>
+    </line>
+    <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (aa46aaa1d8eee960b2fc19f129a973f8)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[Entering number]]>
+    </line>
+    <line>
+      <![CDATA[Entering mail]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Starting the chat]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for sometimes to enable chatbox]]>
+    </line>
+    <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (24b039b26902331230d11c0b48bdba2e)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[Entering number]]>
+    </line>
+    <line>
+      <![CDATA[Entering mail]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Starting the chat]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for sometimes to enable chatbox]]>
+    </line>
+    <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (f4b43f2a9f6796ea5cfe4e24769bf32d)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[Entering number]]>
+    </line>
+    <line>
+      <![CDATA[Entering mail]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Starting the chat]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-11-26T10:13:53Z" name="Falcon-Sample-WIN_10_chrome_84" finished-at="2020-11-26T10:13:54Z" duration-ms="697">
+  <suite started-at="2020-11-27T09:32:44Z" name="Falcon-Sample-WIN_10_chrome_84" finished-at="2020-11-27T09:36:27Z" duration-ms="222736">
     <groups>
     </groups>
-    <test started-at="2020-11-26T10:13:53Z" name="SampleTest" finished-at="2020-11-26T10:13:54Z" duration-ms="697">
+    <test started-at="2020-11-27T09:32:44Z" name="SampleTest" finished-at="2020-11-27T09:36:27Z" duration-ms="222736">
       <class name="com.atmecs.falcon_framework.testscript.FillingChatBox">
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@551a8223]" started-at="2020-11-26T10:13:53Z" name="preSetup" finished-at="2020-11-26T10:13:53Z" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@784c95c9]" started-at="2020-11-27T09:32:44Z" name="preSetup" finished-at="2020-11-27T09:32:44Z" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@551a8223]" started-at="2020-11-26T10:13:53Z" name="Form_filling" data-provider="readData" finished-at="2020-11-26T10:13:54Z" duration-ms="548" status="FAIL">
-          <exception class="org.testng.internal.reflect.MethodMatcherException">
-            <message>
-              <![CDATA[
-Data provider mismatch
-Method: Form_filling([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String) abc,(java.lang.String) 8.574858756E9,(java.lang.String) abc@gmail.com]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
-Data provider mismatch
-Method: Form_filling([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String) abc,(java.lang.String) 8.574858756E9,(java.lang.String) abc@gmail.com]
-at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
-at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:65)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@784c95c9]" started-at="2020-11-27T09:32:45Z" name="Form_filling" data-provider="readData" finished-at="2020-11-27T09:33:22Z" duration-ms="36976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[v10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[v84]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8.574858756E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[Opening browser: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for sometimes to enable chatbox]]>
+            </line>
+            <line>
+              <![CDATA[Switching to frame]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (02a887942303951f2a854f6579a36062)] -> xpath: //iframe[@id='chat-widget']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking chat icon]]>
+            </line>
+            <line>
+              <![CDATA[Entering name]]>
+            </line>
+            <line>
+              <![CDATA[Entering number]]>
+            </line>
+            <line>
+              <![CDATA[Entering mail]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the Checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Starting the chat]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@551a8223]" started-at="2020-11-26T10:13:54Z" name="teardown" finished-at="2020-11-26T10:13:54Z" duration-ms="1" status="PASS">
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@784c95c9]" started-at="2020-11-27T09:33:22Z" name="Form_filling" data-provider="readData" finished-at="2020-11-27T09:33:58Z" duration-ms="36440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[v11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[v85]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8.745849845E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[def@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for sometimes to enable chatbox]]>
+            </line>
+            <line>
+              <![CDATA[Switching to frame]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (cc53e9bc6466ff6f9e820674435c59db)] -> xpath: //iframe[@id='chat-widget']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking chat icon]]>
+            </line>
+            <line>
+              <![CDATA[Entering name]]>
+            </line>
+            <line>
+              <![CDATA[Entering number]]>
+            </line>
+            <line>
+              <![CDATA[Entering mail]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the Checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Starting the chat]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Form_filling -->
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@784c95c9]" started-at="2020-11-27T09:33:58Z" name="Form_filling" data-provider="readData" finished-at="2020-11-27T09:34:35Z" duration-ms="37306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[v12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[v86]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dhf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.848734788E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[dhf@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for sometimes to enable chatbox]]>
+            </line>
+            <line>
+              <![CDATA[Switching to frame]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (3de61f1dde9ccdee591527526d0c13d2)] -> xpath: //iframe[@id='chat-widget']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking chat icon]]>
+            </line>
+            <line>
+              <![CDATA[Entering name]]>
+            </line>
+            <line>
+              <![CDATA[Entering number]]>
+            </line>
+            <line>
+              <![CDATA[Entering mail]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the Checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Starting the chat]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Form_filling -->
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@784c95c9]" started-at="2020-11-27T09:34:35Z" name="Form_filling" data-provider="readData" finished-at="2020-11-27T09:35:12Z" duration-ms="36703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[v13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[v87]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[bnm]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.845739743E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[bnm@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for sometimes to enable chatbox]]>
+            </line>
+            <line>
+              <![CDATA[Switching to frame]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (aa46aaa1d8eee960b2fc19f129a973f8)] -> xpath: //iframe[@id='chat-widget']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking chat icon]]>
+            </line>
+            <line>
+              <![CDATA[Entering name]]>
+            </line>
+            <line>
+              <![CDATA[Entering number]]>
+            </line>
+            <line>
+              <![CDATA[Entering mail]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the Checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Starting the chat]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Form_filling -->
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@784c95c9]" started-at="2020-11-27T09:35:12Z" name="Form_filling" data-provider="readData" finished-at="2020-11-27T09:35:49Z" duration-ms="36657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[v14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[v88]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[klj]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.485398389E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[kjl@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for sometimes to enable chatbox]]>
+            </line>
+            <line>
+              <![CDATA[Switching to frame]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (24b039b26902331230d11c0b48bdba2e)] -> xpath: //iframe[@id='chat-widget']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking chat icon]]>
+            </line>
+            <line>
+              <![CDATA[Entering name]]>
+            </line>
+            <line>
+              <![CDATA[Entering number]]>
+            </line>
+            <line>
+              <![CDATA[Entering mail]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the Checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Starting the chat]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Form_filling -->
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@784c95c9]" started-at="2020-11-27T09:35:49Z" name="Form_filling" data-provider="readData" finished-at="2020-11-27T09:36:26Z" duration-ms="37457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[v15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[v89]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jhg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8.767658687E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[jhg@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for sometimes to enable chatbox]]>
+            </line>
+            <line>
+              <![CDATA[Switching to frame]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (f4b43f2a9f6796ea5cfe4e24769bf32d)] -> xpath: //iframe[@id='chat-widget']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking chat icon]]>
+            </line>
+            <line>
+              <![CDATA[Entering name]]>
+            </line>
+            <line>
+              <![CDATA[Entering number]]>
+            </line>
+            <line>
+              <![CDATA[Entering mail]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the Checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Starting the chat]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Form_filling -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@784c95c9]" started-at="2020-11-27T09:36:26Z" name="teardown" finished-at="2020-11-27T09:36:27Z" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

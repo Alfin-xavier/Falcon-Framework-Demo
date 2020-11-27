@@ -10,7 +10,7 @@
       <class name="com.atmecs.falcon_framework.testscript.FillingChatBox">
         <methods>
           <include name="preSetup"/>
-          <include name="Form_filling"/>
+          <include name="Form_filling" invocation-numbers="3 4 5"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- com.atmecs.falcon_framework.testscript.FillingChatBox -->

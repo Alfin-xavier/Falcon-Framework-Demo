@@ -1,53 +1,32 @@
 package com.atmecs.falcon_framework.util;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
+import com.atmecs.falcon.automation.util.parser.XlsReader;
 import com.atmecs.falcon_framework.constant.FilePathConstants;
 
 public class ReadingDataFromXslx 
 {
-	public static XSSFWorkbook workbook;
-	public static XSSFSheet sheet;
-	public static XSSFCell cell;
 	public static Object[][] data;
 	
-	public static Object[][] readExcelData(String sheetname)
+	public static Object[][] readExcelData(String sheetname) throws IOException
 	{		
+		XlsReader xlsReader = new XlsReader();
 		
-		FileInputStream finput = null;
-		try
-		{
-			finput = new FileInputStream(FilePathConstants.HANDLINGFRAMES_FILE);
-		}
-		catch (FileNotFoundException e) 
-		{
-			e.printStackTrace();
-		} 
+		xlsReader.setPath(FilePathConstants.HANDLINGFRAMES_FILE);
 		
-		try 
-		{
-			workbook = new XSSFWorkbook(finput);
-		} 
-		catch (IOException e) 
-		{
-			e.printStackTrace();
-		} 
+		int rowCount = xlsReader.getRowCount(sheetname);
 		
-		sheet= workbook.getSheet(sheetname); 
+		int columnCount = xlsReader.getColumnCount(sheetname);
 		
-		data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
+		data= new Object[rowCount][columnCount];
 		
-		for(int i=0; i<sheet.getLastRowNum(); i++) 
+		for(int rowIndex =1 ; rowIndex < rowCount + 1; rowIndex ++) 
 		{ 
-			for(int j=0; j<sheet.getRow(0).getLastCellNum(); j++) 
+			for(int columnIndex = 0; columnIndex < columnCount; columnIndex ++) 
 			{
-				data[i][j] = sheet.getRow(i+1).getCell(j).toString();
-				System.out.println(data[i][j]);
+				String datas = xlsReader.getCellDataByColumnIndex(sheetname, columnIndex, rowIndex);
+				
+				data[rowIndex - 1][columnIndex] = datas;
 			}
 		}
 		return data;
