@@ -13,7 +13,8 @@ import org.testng.annotations.DataProvider;
 import com.atmecs.falcon.automation.ui.selenium.Browser;
 import com.atmecs.falcon_framework.util.ReadingDataFromXslx;
 
-public class SampleTestSuiteBase {
+public class SampleTestSuiteBase
+{
 	public Browser browser;
 	public String os, osVersion, br, browserVersion;
 	@BeforeClass
