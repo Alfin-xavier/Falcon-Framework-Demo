@@ -20,7 +20,7 @@ public class ReadingDataFromXslx
 		
 		data= new Object[rowCount][columnCount];
 		
-		for(int rowIndex =1 ; rowIndex < rowCount + 1; rowIndex ++) 
+		for(int rowIndex = 1 ; rowIndex < rowCount + 1; rowIndex ++) 
 		{ 
 			for(int columnIndex = 0; columnIndex < columnCount; columnIndex ++) 
 			{
