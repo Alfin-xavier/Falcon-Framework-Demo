@@ -1,8 +1,7 @@
-2020-11-30 16:32:32,363  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 16:32:32,366  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 16:32:32,368  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 16:32:32,370  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 16:32:32,371  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 16:32:32,373  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 16:32:32,481  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
-2020-11-30 16:32:32,541 ERROR [com.atmecs.falcon_framework.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
+2020-11-30 17:33:40,945  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
+2020-11-30 17:33:40,945  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: gecko
+2020-11-30 17:33:40,972  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: gecko
+2020-11-30 17:33:40,978  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: gecko
+2020-11-30 17:33:40,982  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: gecko
+2020-11-30 17:33:41,000  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: gecko
+2020-11-30 17:33:41,008  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: gecko

@@ -11,7 +11,6 @@ import com.atmecs.falcon_framework.util.PropertyReader;
 
 public class FillingChatFormPage extends BasePage
 {
-	Browser browser;
 	
 	private ReportLogService report = new ReportLogServiceImpl(FillingChatBox.class);
 	
