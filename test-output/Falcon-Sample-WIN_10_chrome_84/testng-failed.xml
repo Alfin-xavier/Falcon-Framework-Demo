@@ -11,6 +11,7 @@
         <methods>
           <include name="preSetup"/>
           <include name="Form_filling" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="initBrowser"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- com.atmecs.falcon_framework.testscript.FillingChatBox -->

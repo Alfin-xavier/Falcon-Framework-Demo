@@ -21,5 +21,6 @@ public class FilePathConstants
 	
 	public final static String TESTDATA_HOME = RESOURCES_HOME + "testdatas" + File.separator;
 	public final static String HANDLINGFRAMES_FILE = TESTDATA_HOME + "HandlingFrames.xlsx";
+	public final static String PROPERTY_READER = "./src/main/java/com/atmecs/falcon_framework/util/PropertyReader.java";
 
 }
