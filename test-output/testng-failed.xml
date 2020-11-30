@@ -10,6 +10,7 @@
       <class name="com.atmecs.falcon_framework.testscript.FillingChatBox">
         <methods>
           <include name="preSetup"/>
+          <include name="closeBrowser"/>
           <include name="Form_filling" invocation-numbers="0 1 2 3 4 5"/>
           <include name="initBrowser"/>
           <include name="teardown"/>

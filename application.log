@@ -1,8 +1,8 @@
-2020-11-30 15:53:56,525  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 15:53:56,528  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 15:53:56,529  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 15:53:56,529  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 15:53:56,531  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 15:53:56,532  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 15:53:56,657  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
-2020-11-30 15:53:56,722 ERROR [com.atmecs.falcon_framework.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
+2020-11-30 16:32:32,363  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
+2020-11-30 16:32:32,366  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
+2020-11-30 16:32:32,368  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
+2020-11-30 16:32:32,370  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
+2020-11-30 16:32:32,371  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
+2020-11-30 16:32:32,373  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: chrome
+2020-11-30 16:32:32,481  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
+2020-11-30 16:32:32,541 ERROR [com.atmecs.falcon_framework.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false

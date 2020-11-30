@@ -1,5 +1,6 @@
 package com.atmecs.falcon_framework.testscript;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -46,6 +47,12 @@ public class FillingChatBox extends SampleTestSuiteBase
 		fillingForm.selectValueFromDropDown();
 		
 		fillingForm.clickChatButton();
+	}
+	
+	@AfterMethod
+	public void closeBrowser()
+	{
+		browser.closeBrowser();
 	}
 }
 

@@ -7,11 +7,11 @@ public class BasePage
 {
 	public Browser browser;
 	
+	public String os, osVersion, br, browserVersion;
+	
 	public BasePage(Browser browser)
 	{
 		this.browser = browser;
 	}
-	
-	public String os, osVersion, br, browserVersion;
 	
 }
