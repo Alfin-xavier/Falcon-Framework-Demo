@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="7" failed="5" skipped="0">
+<testng-results ignored="0" total="12" passed="9" failed="3" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable handlingframes is: handlingframes]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable WIN_10_chrome_84,WIN_10_firefox_83 is: WIN_10_chrome_84,WIN_10_firefox_83]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [Falcon]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [handlingframes]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_84]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_84">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="84"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.falcon_framework.testscript.FillingChatBox"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_84 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-Sample-WIN_10_firefox_83]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_firefox_83">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="browserVersion" value="83"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.falcon_framework.testscript.FillingChatBox"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_firefox_83 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: firefox]]>
+    </line>
     <line>
       <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
     </line>
@@ -66,7 +124,112 @@
       <![CDATA[Switching to frame]]>
     </line>
     <line>
-      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (8a65ec7cf2d07647299dfee3a3495d50)] -> xpath: //iframe[@id='chat-widget']]]]>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (c579f82810ecea5f5be25785d48a9543)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[No such element found with xpath //input[@id='name']]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (edc13af1-cabe-4afb-af61-a0219e2e5df5)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[Entering number]]>
+    </line>
+    <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (2973f9b7c2979c66e93c2cbe8dcac881)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
+      <![CDATA[Entering mail]]>
+    </line>
+    <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[No such element found with xpath //input[@id='name']]]>
+    </line>
+    <line>
+      <![CDATA[Clicking dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Starting the chat]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: firefox]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Unable to navigate to frame with element [[ChromeDriver: chrome on WINDOWS (6bed973716efca540672192736ea9736)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
+      <![CDATA[No such element found with xpath //div[@class='lc-1z06j5z e1dmt1bi1']]]>
+    </line>
+    <line>
+      <![CDATA[Locator type doesn't exist null]]>
+    </line>
+    <line>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[No such element found with xpath //input[@id='name']]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (f5085789-6991-4073-8b22-cce9445037f6)] -> xpath: //iframe[@id='chat-widget']]]]>
     </line>
     <line>
       <![CDATA[Clicking chat icon]]>
@@ -79,6 +242,36 @@
     </line>
     <line>
       <![CDATA[Entering mail]]>
+    </line>
+    <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (fe1bc21ce2bef8e49eb8153a73ea7d14)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
+      <![CDATA[Clicking dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[Starting the chat]]>
+    </line>
+    <line>
+      <![CDATA[Entering number]]>
+    </line>
+    <line>
+      <![CDATA[Entering mail]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: firefox]]>
     </line>
     <line>
       <![CDATA[Clicking the Checkbox]]>
@@ -96,25 +289,67 @@
       <![CDATA[Maximizing browser window]]>
     </line>
     <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
       <![CDATA[Switching to frame]]>
     </line>
     <line>
-      <![CDATA[Unable to navigate to frame with element [[ChromeDriver: chrome on WINDOWS (7507dc37ca05543250b37098d3d9641b)] -> xpath: //iframe[@id='chat-widget']]]]>
+      <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (430267f0-42b7-45a3-8b08-b6cf3b2e4591)] -> xpath: //iframe[@id='chat-widget']]]]>
     </line>
     <line>
       <![CDATA[Clicking chat icon]]>
     </line>
     <line>
-      <![CDATA[No such element found with xpath //div[@class='lc-1z06j5z e1dmt1bi1']]]>
+      <![CDATA[Entering name]]>
     </line>
     <line>
-      <![CDATA[Locator type doesn't exist null]]>
+      <![CDATA[Entering number]]>
+    </line>
+    <line>
+      <![CDATA[Entering mail]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (e29b3cdf6070452032156cf2b76d08a5)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
+      <![CDATA[Starting the chat]]>
     </line>
     <line>
       <![CDATA[Entering name]]>
     </line>
     <line>
-      <![CDATA[No such element found with xpath //input[@id='name']]]>
+      <![CDATA[Entering number]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: firefox]]>
+    </line>
+    <line>
+      <![CDATA[Entering mail]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Starting the chat]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
     </line>
     <line>
       <![CDATA[Opening browser: chrome]]>
@@ -126,7 +361,7 @@
       <![CDATA[Switching to frame]]>
     </line>
     <line>
-      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (196623414c1368c33022848cd1c9d210)] -> xpath: //iframe[@id='chat-widget']]]]>
+      <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (5c7e921d-bf6c-43b3-ad76-f061dd519e11)] -> xpath: //iframe[@id='chat-widget']]]]>
     </line>
     <line>
       <![CDATA[Clicking chat icon]]>
@@ -141,55 +376,19 @@
       <![CDATA[Entering mail]]>
     </line>
     <line>
+      <![CDATA[Switching to frame]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (3023b321b961e01115ae16e78a32f2fe)] -> xpath: //iframe[@id='chat-widget']]]]>
+    </line>
+    <line>
       <![CDATA[Clicking the Checkbox]]>
     </line>
     <line>
+      <![CDATA[Clicking chat icon]]>
+    </line>
+    <line>
       <![CDATA[Clicking dropdown]]>
-    </line>
-    <line>
-      <![CDATA[Starting the chat]]>
-    </line>
-    <line>
-      <![CDATA[Opening browser: chrome]]>
-    </line>
-    <line>
-      <![CDATA[Maximizing browser window]]>
-    </line>
-    <line>
-      <![CDATA[Switching to frame]]>
-    </line>
-    <line>
-      <![CDATA[Unable to navigate to frame with element [[ChromeDriver: chrome on WINDOWS (9ff2a286eef19d8a51c92699fb528401)] -> xpath: //iframe[@id='chat-widget']]]]>
-    </line>
-    <line>
-      <![CDATA[Clicking chat icon]]>
-    </line>
-    <line>
-      <![CDATA[No such element found with xpath //div[@class='lc-1z06j5z e1dmt1bi1']]]>
-    </line>
-    <line>
-      <![CDATA[Locator type doesn't exist null]]>
-    </line>
-    <line>
-      <![CDATA[Entering name]]>
-    </line>
-    <line>
-      <![CDATA[No such element found with xpath //input[@id='name']]]>
-    </line>
-    <line>
-      <![CDATA[Opening browser: chrome]]>
-    </line>
-    <line>
-      <![CDATA[Maximizing browser window]]>
-    </line>
-    <line>
-      <![CDATA[Switching to frame]]>
-    </line>
-    <line>
-      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (a2924c8b60ed6094a5f565a3e43d1fc4)] -> xpath: //iframe[@id='chat-widget']]]]>
-    </line>
-    <line>
-      <![CDATA[Clicking chat icon]]>
     </line>
     <line>
       <![CDATA[Entering name]]>
@@ -198,10 +397,16 @@
       <![CDATA[Entering number]]>
     </line>
     <line>
+      <![CDATA[Starting the chat]]>
+    </line>
+    <line>
       <![CDATA[Entering mail]]>
     </line>
     <line>
       <![CDATA[Clicking the Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: firefox]]>
     </line>
     <line>
       <![CDATA[Clicking dropdown]]>
@@ -210,16 +415,13 @@
       <![CDATA[Starting the chat]]>
     </line>
     <line>
-      <![CDATA[Opening browser: chrome]]>
-    </line>
-    <line>
       <![CDATA[Maximizing browser window]]>
     </line>
     <line>
       <![CDATA[Switching to frame]]>
     </line>
     <line>
-      <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (6c1dce81f7a53240deda912f7b3c52ad)] -> xpath: //iframe[@id='chat-widget']]]]>
+      <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (d4355961-66c9-4607-a2fd-189b4f216ea5)] -> xpath: //iframe[@id='chat-widget']]]]>
     </line>
     <line>
       <![CDATA[Clicking chat icon]]>
@@ -252,154 +454,7 @@
       <![CDATA[Switching to frame]]>
     </line>
     <line>
-      <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (ffed8c8b-dba0-4dd2-af11-729bedface95)] -> xpath: //iframe[@id='chat-widget']]]]>
-    </line>
-    <line>
-      <![CDATA[Clicking chat icon]]>
-    </line>
-    <line>
-      <![CDATA[Entering name]]>
-    </line>
-    <line>
-      <![CDATA[Entering number]]>
-    </line>
-    <line>
-      <![CDATA[Entering mail]]>
-    </line>
-    <line>
-      <![CDATA[Clicking the Checkbox]]>
-    </line>
-    <line>
-      <![CDATA[Clicking dropdown]]>
-    </line>
-    <line>
-      <![CDATA[Starting the chat]]>
-    </line>
-    <line>
-      <![CDATA[Opening browser: firefox]]>
-    </line>
-    <line>
-      <![CDATA[Maximizing browser window]]>
-    </line>
-    <line>
-      <![CDATA[Switching to frame]]>
-    </line>
-    <line>
-      <![CDATA[Unable to navigate to frame with element [[FirefoxDriver: firefox on WINDOWS (12588390-9221-45b7-84a9-878c2cbb1136)] -> xpath: //iframe[@id='chat-widget']]]]>
-    </line>
-    <line>
-      <![CDATA[Clicking chat icon]]>
-    </line>
-    <line>
-      <![CDATA[No such element found with xpath //div[@class='lc-1z06j5z e1dmt1bi1']]]>
-    </line>
-    <line>
-      <![CDATA[Locator type doesn't exist null]]>
-    </line>
-    <line>
-      <![CDATA[Entering name]]>
-    </line>
-    <line>
-      <![CDATA[No such element found with xpath //input[@id='name']]]>
-    </line>
-    <line>
-      <![CDATA[Opening browser: firefox]]>
-    </line>
-    <line>
-      <![CDATA[Maximizing browser window]]>
-    </line>
-    <line>
-      <![CDATA[Switching to frame]]>
-    </line>
-    <line>
-      <![CDATA[Unable to navigate to frame with element [[FirefoxDriver: firefox on WINDOWS (ad86bebf-ca04-4ff4-8f78-30fb1ca6d051)] -> xpath: //iframe[@id='chat-widget']]]]>
-    </line>
-    <line>
-      <![CDATA[Clicking chat icon]]>
-    </line>
-    <line>
-      <![CDATA[No such element found with xpath //div[@class='lc-1z06j5z e1dmt1bi1']]]>
-    </line>
-    <line>
-      <![CDATA[Locator type doesn't exist null]]>
-    </line>
-    <line>
-      <![CDATA[Entering name]]>
-    </line>
-    <line>
-      <![CDATA[No such element found with xpath //input[@id='name']]]>
-    </line>
-    <line>
-      <![CDATA[Opening browser: firefox]]>
-    </line>
-    <line>
-      <![CDATA[Maximizing browser window]]>
-    </line>
-    <line>
-      <![CDATA[Switching to frame]]>
-    </line>
-    <line>
-      <![CDATA[Unable to navigate to frame with element [[FirefoxDriver: firefox on WINDOWS (81469519-e8f9-4e35-9b5d-e46d47e777fc)] -> xpath: //iframe[@id='chat-widget']]]]>
-    </line>
-    <line>
-      <![CDATA[Clicking chat icon]]>
-    </line>
-    <line>
-      <![CDATA[No such element found with xpath //div[@class='lc-1z06j5z e1dmt1bi1']]]>
-    </line>
-    <line>
-      <![CDATA[Locator type doesn't exist null]]>
-    </line>
-    <line>
-      <![CDATA[Entering name]]>
-    </line>
-    <line>
-      <![CDATA[No such element found with xpath //input[@id='name']]]>
-    </line>
-    <line>
-      <![CDATA[Opening browser: firefox]]>
-    </line>
-    <line>
-      <![CDATA[Maximizing browser window]]>
-    </line>
-    <line>
-      <![CDATA[Switching to frame]]>
-    </line>
-    <line>
-      <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (d7125b3a-8856-47ed-bd49-c0e4338439ff)] -> xpath: //iframe[@id='chat-widget']]]]>
-    </line>
-    <line>
-      <![CDATA[Clicking chat icon]]>
-    </line>
-    <line>
-      <![CDATA[Entering name]]>
-    </line>
-    <line>
-      <![CDATA[Entering number]]>
-    </line>
-    <line>
-      <![CDATA[Entering mail]]>
-    </line>
-    <line>
-      <![CDATA[Clicking the Checkbox]]>
-    </line>
-    <line>
-      <![CDATA[Clicking dropdown]]>
-    </line>
-    <line>
-      <![CDATA[Starting the chat]]>
-    </line>
-    <line>
-      <![CDATA[Opening browser: firefox]]>
-    </line>
-    <line>
-      <![CDATA[Maximizing browser window]]>
-    </line>
-    <line>
-      <![CDATA[Switching to frame]]>
-    </line>
-    <line>
-      <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (c65ac760-7fc3-4512-8960-66caf5fbda41)] -> xpath: //iframe[@id='chat-widget']]]]>
+      <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (be92eb2d-5a3b-41a6-a78c-b93f5801bc4c)] -> xpath: //iframe[@id='chat-widget']]]]>
     </line>
     <line>
       <![CDATA[Clicking chat icon]]>
@@ -423,16 +478,16 @@
       <![CDATA[Starting the chat]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-12-01T09:44:03Z" name="Falcon-Sample-WIN_10_chrome_84" finished-at="2020-12-01T09:49:54Z" duration-ms="350171">
+  <suite started-at="2020-12-01T15:05:49Z" name="Falcon-Sample-WIN_10_chrome_84" finished-at="2020-12-01T15:11:37Z" duration-ms="347882">
     <groups>
     </groups>
-    <test started-at="2020-12-01T09:44:03Z" name="SampleTest" finished-at="2020-12-01T09:49:54Z" duration-ms="350171">
+    <test started-at="2020-12-01T15:05:49Z" name="SampleTest" finished-at="2020-12-01T15:11:37Z" duration-ms="347882">
       <class name="com.atmecs.falcon_framework.testscript.FillingChatBox">
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:44:03Z" name="preSetup" finished-at="2020-12-01T09:44:04Z" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:05:49Z" name="preSetup" finished-at="2020-12-01T15:05:49Z" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:44:04Z" name="initBrowser" finished-at="2020-12-01T09:44:04Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:05:50Z" name="initBrowser" finished-at="2020-12-01T15:05:50Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -458,7 +513,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:44:04Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T09:45:07Z" duration-ms="63224" status="PASS">
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:05:50Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T15:06:35Z" duration-ms="44352" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -476,6 +531,36 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.atmecs.falcon.automation.ui.selenium.TextField.enterTextField(TextField.java:45)
+at com.atmecs.falcon_framework.pages.FillingChatFormPage.enterUserName(FillingChatFormPage.java:37)
+at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[Opening browser: chrome]]>
@@ -487,7 +572,7 @@
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (8a65ec7cf2d07647299dfee3a3495d50)] -> xpath: //iframe[@id='chat-widget']]]]>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (c579f82810ecea5f5be25785d48a9543)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
@@ -496,27 +581,15 @@
               <![CDATA[Entering name]]>
             </line>
             <line>
-              <![CDATA[Entering number]]>
-            </line>
-            <line>
-              <![CDATA[Entering mail]]>
-            </line>
-            <line>
-              <![CDATA[Clicking the Checkbox]]>
-            </line>
-            <line>
-              <![CDATA[Clicking dropdown]]>
-            </line>
-            <line>
-              <![CDATA[Starting the chat]]>
+              <![CDATA[No such element found with xpath //input[@id='name']]]>
             </line>
           </reporter-output>
         </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:45:07Z" name="closeBrowser" finished-at="2020-12-01T09:45:08Z" duration-ms="527" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:06:35Z" name="closeBrowser" finished-at="2020-12-01T15:06:42Z" duration-ms="6867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:45:08Z" name="initBrowser" finished-at="2020-12-01T09:45:08Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:06:42Z" name="initBrowser" finished-at="2020-12-01T15:06:42Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -542,7 +615,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:45:08Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T09:45:52Z" duration-ms="44008" status="FAIL">
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:06:42Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T15:07:25Z" duration-ms="43159" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -584,16 +657,8 @@ at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
 at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:65)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
@@ -609,16 +674,10 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Unable to navigate to frame with element [[ChromeDriver: chrome on WINDOWS (7507dc37ca05543250b37098d3d9641b)] -> xpath: //iframe[@id='chat-widget']]]]>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (2973f9b7c2979c66e93c2cbe8dcac881)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
-            </line>
-            <line>
-              <![CDATA[No such element found with xpath //div[@class='lc-1z06j5z e1dmt1bi1']]]>
-            </line>
-            <line>
-              <![CDATA[Locator type doesn't exist null]]>
             </line>
             <line>
               <![CDATA[Entering name]]>
@@ -628,11 +687,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
             </line>
           </reporter-output>
         </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:45:52Z" name="closeBrowser" finished-at="2020-12-01T09:45:52Z" duration-ms="466" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:07:25Z" name="closeBrowser" finished-at="2020-12-01T15:07:28Z" duration-ms="2996" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:45:52Z" name="initBrowser" finished-at="2020-12-01T09:45:52Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:07:28Z" name="initBrowser" finished-at="2020-12-01T15:07:28Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -658,7 +717,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:45:52Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T09:46:55Z" duration-ms="62413" status="PASS">
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:07:28Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T15:08:10Z" duration-ms="42493" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -673,90 +732,6 @@ at java.base/java.lang.Thread.run(Thread.java:832)
             <param index="2">
               <value>
                 <![CDATA[dhf@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Opening browser: chrome]]>
-            </line>
-            <line>
-              <![CDATA[Maximizing browser window]]>
-            </line>
-            <line>
-              <![CDATA[Switching to frame]]>
-            </line>
-            <line>
-              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (196623414c1368c33022848cd1c9d210)] -> xpath: //iframe[@id='chat-widget']]]]>
-            </line>
-            <line>
-              <![CDATA[Clicking chat icon]]>
-            </line>
-            <line>
-              <![CDATA[Entering name]]>
-            </line>
-            <line>
-              <![CDATA[Entering number]]>
-            </line>
-            <line>
-              <![CDATA[Entering mail]]>
-            </line>
-            <line>
-              <![CDATA[Clicking the Checkbox]]>
-            </line>
-            <line>
-              <![CDATA[Clicking dropdown]]>
-            </line>
-            <line>
-              <![CDATA[Starting the chat]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:46:55Z" name="closeBrowser" finished-at="2020-12-01T09:46:56Z" duration-ms="892" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:46:56Z" name="initBrowser" finished-at="2020-12-01T09:46:56Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[WIN]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[84]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowser -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:46:56Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T09:47:39Z" duration-ms="43467" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bnm]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9.845739743E9]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[bnm@gmail.com]]>
               </value>
             </param>
           </params>
@@ -784,16 +759,8 @@ at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
 at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:65)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
@@ -809,7 +776,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Unable to navigate to frame with element [[ChromeDriver: chrome on WINDOWS (9ff2a286eef19d8a51c92699fb528401)] -> xpath: //iframe[@id='chat-widget']]]]>
+              <![CDATA[Unable to navigate to frame with element [[ChromeDriver: chrome on WINDOWS (6bed973716efca540672192736ea9736)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
@@ -828,11 +795,65 @@ at java.base/java.lang.Thread.run(Thread.java:832)
             </line>
           </reporter-output>
         </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:47:39Z" name="closeBrowser" finished-at="2020-12-01T09:47:40Z" duration-ms="550" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:08:10Z" name="closeBrowser" finished-at="2020-12-01T15:08:11Z" duration-ms="436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:47:40Z" name="initBrowser" finished-at="2020-12-01T09:47:40Z" duration-ms="0" status="PASS">
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:08:11Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T15:09:15Z" duration-ms="64296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bnm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.845739743E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bnm@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+            <line>
+              <![CDATA[Switching to frame]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (fe1bc21ce2bef8e49eb8153a73ea7d14)] -> xpath: //iframe[@id='chat-widget']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking chat icon]]>
+            </line>
+            <line>
+              <![CDATA[Entering name]]>
+            </line>
+            <line>
+              <![CDATA[Entering number]]>
+            </line>
+            <line>
+              <![CDATA[Entering mail]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the Checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Starting the chat]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Form_filling -->
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:08:11Z" name="initBrowser" finished-at="2020-12-01T15:08:11Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -858,7 +879,37 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:47:40Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T09:48:43Z" duration-ms="63129" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:09:15Z" name="closeBrowser" finished-at="2020-12-01T15:09:16Z" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:09:16Z" name="initBrowser" finished-at="2020-12-01T15:09:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:09:16Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T15:10:26Z" duration-ms="70361" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -887,7 +938,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (a2924c8b60ed6094a5f565a3e43d1fc4)] -> xpath: //iframe[@id='chat-widget']]]]>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (e29b3cdf6070452032156cf2b76d08a5)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
@@ -912,11 +963,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
             </line>
           </reporter-output>
         </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:48:43Z" name="closeBrowser" finished-at="2020-12-01T09:48:43Z" duration-ms="495" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:10:26Z" name="closeBrowser" finished-at="2020-12-01T15:10:36Z" duration-ms="9331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:48:43Z" name="initBrowser" finished-at="2020-12-01T09:48:43Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:10:36Z" name="initBrowser" finished-at="2020-12-01T15:10:36Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -942,7 +993,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:48:43Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T09:49:53Z" duration-ms="69609" status="PASS">
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:10:36Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T15:11:35Z" duration-ms="59459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -971,7 +1022,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (6c1dce81f7a53240deda912f7b3c52ad)] -> xpath: //iframe[@id='chat-widget']]]]>
+              <![CDATA[Navigated to frame with element [[ChromeDriver: chrome on WINDOWS (3023b321b961e01115ae16e78a32f2fe)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
@@ -996,27 +1047,27 @@ at java.base/java.lang.Thread.run(Thread.java:832)
             </line>
           </reporter-output>
         </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:49:53Z" name="closeBrowser" finished-at="2020-12-01T09:49:53Z" duration-ms="531" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:11:35Z" name="closeBrowser" finished-at="2020-12-01T15:11:36Z" duration-ms="1054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@35277de8]" started-at="2020-12-01T09:49:53Z" name="teardown" finished-at="2020-12-01T09:49:54Z" duration-ms="222" status="FAIL">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@2a807860]" started-at="2020-12-01T15:11:36Z" name="teardown" finished-at="2020-12-01T15:11:37Z" duration-ms="466" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.201.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6c1dce81f7a53240deda912f7b3c52ad]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3023b321b961e01115ae16e78a32f2fe]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.201.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6c1dce81f7a53240deda912f7b3c52ad
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3023b321b961e01115ae16e78a32f2fe
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1051,16 +1102,8 @@ at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
 at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:65)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
@@ -1071,16 +1114,42 @@ at java.base/java.lang.Thread.run(Thread.java:832)
       </class> <!-- com.atmecs.falcon_framework.testscript.FillingChatBox -->
     </test> <!-- SampleTest -->
   </suite> <!-- Falcon-Sample-WIN_10_chrome_84 -->
-  <suite started-at="2020-12-01T09:49:54Z" name="Falcon-Sample-WIN_10_firefox_83" finished-at="2020-12-01T09:56:02Z" duration-ms="368712">
+  <suite started-at="2020-12-01T15:05:49Z" name="Falcon-Sample-WIN_10_firefox_83" finished-at="2020-12-01T15:13:47Z" duration-ms="477868">
     <groups>
     </groups>
-    <test started-at="2020-12-01T09:49:54Z" name="SampleTest" finished-at="2020-12-01T09:56:02Z" duration-ms="368712">
+    <test started-at="2020-12-01T15:05:49Z" name="SampleTest" finished-at="2020-12-01T15:13:47Z" duration-ms="477868">
       <class name="com.atmecs.falcon_framework.testscript.FillingChatBox">
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:49:54Z" name="preSetup" finished-at="2020-12-01T09:49:54Z" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:05:49Z" name="preSetup" finished-at="2020-12-01T15:05:49Z" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:49:54Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T09:51:04Z" duration-ms="70271" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:05:50Z" name="initBrowser" finished-at="2020-12-01T15:05:50Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:05:50Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T15:07:33Z" duration-ms="102395" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1109,7 +1178,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (ffed8c8b-dba0-4dd2-af11-729bedface95)] -> xpath: //iframe[@id='chat-widget']]]]>
+              <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (edc13af1-cabe-4afb-af61-a0219e2e5df5)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
@@ -1134,7 +1203,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
             </line>
           </reporter-output>
         </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:49:54Z" name="initBrowser" finished-at="2020-12-01T09:49:54Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:07:33Z" name="closeBrowser" finished-at="2020-12-01T15:07:36Z" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:07:36Z" name="initBrowser" finished-at="2020-12-01T15:07:36Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1160,11 +1233,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:51:04Z" name="closeBrowser" finished-at="2020-12-01T09:51:06Z" duration-ms="1736" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:51:06Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T09:52:01Z" duration-ms="54967" status="FAIL">
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:07:36Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T15:09:00Z" duration-ms="84313" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1182,44 +1251,6 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.atmecs.falcon.automation.ui.selenium.TextField.enterTextField(TextField.java:45)
-at com.atmecs.falcon_framework.pages.FillingChatFormPage.enterUserName(FillingChatFormPage.java:37)
-at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:38)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:65)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[Opening browser: firefox]]>
@@ -1231,56 +1262,36 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Unable to navigate to frame with element [[FirefoxDriver: firefox on WINDOWS (12588390-9221-45b7-84a9-878c2cbb1136)] -> xpath: //iframe[@id='chat-widget']]]]>
+              <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (f5085789-6991-4073-8b22-cce9445037f6)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
             </line>
             <line>
-              <![CDATA[No such element found with xpath //div[@class='lc-1z06j5z e1dmt1bi1']]]>
-            </line>
-            <line>
-              <![CDATA[Locator type doesn't exist null]]>
-            </line>
-            <line>
               <![CDATA[Entering name]]>
             </line>
             <line>
-              <![CDATA[No such element found with xpath //input[@id='name']]]>
+              <![CDATA[Entering number]]>
+            </line>
+            <line>
+              <![CDATA[Entering mail]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the Checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Starting the chat]]>
             </line>
           </reporter-output>
         </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:51:06Z" name="initBrowser" finished-at="2020-12-01T09:51:06Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[WIN]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[83]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:52:01Z" name="closeBrowser" finished-at="2020-12-01T09:52:03Z" duration-ms="2131" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:09:00Z" name="closeBrowser" finished-at="2020-12-01T15:09:03Z" duration-ms="3193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:52:03Z" name="initBrowser" finished-at="2020-12-01T09:52:03Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:09:03Z" name="initBrowser" finished-at="2020-12-01T15:09:03Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1306,7 +1317,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:52:03Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T09:52:49Z" duration-ms="45729" status="FAIL">
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:09:03Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T15:10:08Z" duration-ms="64430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1324,44 +1335,6 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.atmecs.falcon.automation.ui.selenium.TextField.enterTextField(TextField.java:45)
-at com.atmecs.falcon_framework.pages.FillingChatFormPage.enterUserName(FillingChatFormPage.java:37)
-at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:38)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:65)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[Opening browser: firefox]]>
@@ -1373,30 +1346,36 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Unable to navigate to frame with element [[FirefoxDriver: firefox on WINDOWS (ad86bebf-ca04-4ff4-8f78-30fb1ca6d051)] -> xpath: //iframe[@id='chat-widget']]]]>
+              <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (430267f0-42b7-45a3-8b08-b6cf3b2e4591)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
             </line>
             <line>
-              <![CDATA[No such element found with xpath //div[@class='lc-1z06j5z e1dmt1bi1']]]>
-            </line>
-            <line>
-              <![CDATA[Locator type doesn't exist null]]>
-            </line>
-            <line>
               <![CDATA[Entering name]]>
             </line>
             <line>
-              <![CDATA[No such element found with xpath //input[@id='name']]]>
+              <![CDATA[Entering number]]>
+            </line>
+            <line>
+              <![CDATA[Entering mail]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the Checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Starting the chat]]>
             </line>
           </reporter-output>
         </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:52:49Z" name="closeBrowser" finished-at="2020-12-01T09:52:53Z" duration-ms="4401" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:10:08Z" name="closeBrowser" finished-at="2020-12-01T15:10:12Z" duration-ms="4281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:52:53Z" name="initBrowser" finished-at="2020-12-01T09:52:53Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:10:12Z" name="initBrowser" finished-at="2020-12-01T15:10:12Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1422,7 +1401,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:52:53Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T09:53:43Z" duration-ms="50407" status="FAIL">
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:10:12Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T15:11:23Z" duration-ms="70638" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1440,44 +1419,6 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.atmecs.falcon.automation.ui.selenium.TextField.enterTextField(TextField.java:45)
-at com.atmecs.falcon_framework.pages.FillingChatFormPage.enterUserName(FillingChatFormPage.java:37)
-at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:38)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:65)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[Opening browser: firefox]]>
@@ -1489,30 +1430,36 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Unable to navigate to frame with element [[FirefoxDriver: firefox on WINDOWS (81469519-e8f9-4e35-9b5d-e46d47e777fc)] -> xpath: //iframe[@id='chat-widget']]]]>
+              <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (5c7e921d-bf6c-43b3-ad76-f061dd519e11)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
             </line>
             <line>
-              <![CDATA[No such element found with xpath //div[@class='lc-1z06j5z e1dmt1bi1']]]>
-            </line>
-            <line>
-              <![CDATA[Locator type doesn't exist null]]>
-            </line>
-            <line>
               <![CDATA[Entering name]]>
             </line>
             <line>
-              <![CDATA[No such element found with xpath //input[@id='name']]]>
+              <![CDATA[Entering number]]>
+            </line>
+            <line>
+              <![CDATA[Entering mail]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the Checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Starting the chat]]>
             </line>
           </reporter-output>
         </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:53:43Z" name="closeBrowser" finished-at="2020-12-01T09:53:46Z" duration-ms="2463" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:11:23Z" name="closeBrowser" finished-at="2020-12-01T15:11:27Z" duration-ms="4070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:53:46Z" name="initBrowser" finished-at="2020-12-01T09:53:46Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:11:27Z" name="initBrowser" finished-at="2020-12-01T15:11:27Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1538,7 +1485,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:53:46Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T09:54:56Z" duration-ms="70090" status="PASS">
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:11:27Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T15:12:29Z" duration-ms="61825" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1567,7 +1514,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (d7125b3a-8856-47ed-bd49-c0e4338439ff)] -> xpath: //iframe[@id='chat-widget']]]]>
+              <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (d4355961-66c9-4607-a2fd-189b4f216ea5)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
@@ -1592,11 +1539,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
             </line>
           </reporter-output>
         </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:54:56Z" name="closeBrowser" finished-at="2020-12-01T09:54:59Z" duration-ms="3478" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:12:29Z" name="closeBrowser" finished-at="2020-12-01T15:12:33Z" duration-ms="4796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:54:59Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T09:55:59Z" duration-ms="59406" status="PASS">
+        <test-method signature="Form_filling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:12:33Z" name="Form_filling" data-provider="readData" finished-at="2020-12-01T15:13:43Z" duration-ms="69460" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1625,7 +1572,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               <![CDATA[Switching to frame]]>
             </line>
             <line>
-              <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (c65ac760-7fc3-4512-8960-66caf5fbda41)] -> xpath: //iframe[@id='chat-widget']]]]>
+              <![CDATA[Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (be92eb2d-5a3b-41a6-a78c-b93f5801bc4c)] -> xpath: //iframe[@id='chat-widget']]]]>
             </line>
             <line>
               <![CDATA[Clicking chat icon]]>
@@ -1650,7 +1597,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
             </line>
           </reporter-output>
         </test-method> <!-- Form_filling -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:54:59Z" name="initBrowser" finished-at="2020-12-01T09:54:59Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:12:33Z" name="initBrowser" finished-at="2020-12-01T15:12:33Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1676,27 +1623,27 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:55:59Z" name="closeBrowser" finished-at="2020-12-01T09:56:02Z" duration-ms="3554" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:13:43Z" name="closeBrowser" finished-at="2020-12-01T15:13:47Z" duration-ms="3813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@3fe4669b]" started-at="2020-12-01T09:56:02Z" name="teardown" finished-at="2020-12-01T09:56:02Z" duration-ms="3" status="FAIL">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.falcon_framework.testscript.FillingChatBox@369a4ada]" started-at="2020-12-01T15:13:47Z" name="teardown" finished-at="2020-12-01T15:13:47Z" duration-ms="3" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.201.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 13200, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c65ac760-7fc3-4512-8960-66caf5fbda41]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8860, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: be92eb2d-5a3b-41a6-a78c-b93f5801bc4c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.201.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 13200, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c65ac760-7fc3-4512-8960-66caf5fbda41
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8860, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: be92eb2d-5a3b-41a6-a78c-b93f5801bc4c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1731,16 +1678,8 @@ at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
 at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at com.atmecs.falcon_framework.runner.TestNGRunner.main(TestNGRunner.java:65)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>

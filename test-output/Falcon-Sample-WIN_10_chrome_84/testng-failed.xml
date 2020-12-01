@@ -11,7 +11,7 @@
         <methods>
           <include name="preSetup"/>
           <include name="closeBrowser"/>
-          <include name="Form_filling" invocation-numbers="1 3"/>
+          <include name="Form_filling" invocation-numbers="0 1 2"/>
           <include name="initBrowser"/>
           <include name="teardown"/>
         </methods>
