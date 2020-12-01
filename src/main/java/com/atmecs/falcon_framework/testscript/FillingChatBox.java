@@ -11,9 +11,8 @@ import com.atmecs.falcon_framework.util.FormFillingDataProvider;
 
 public class FillingChatBox extends SampleTestSuiteBase
 {
-
 	String appUrl = PropertyParser.readEnvOrConfigProperty("appUrl");
-
+	
 	@BeforeMethod
 	@Parameters({ "os", "osVersion", "browser", "browserVersion" })
 	public void initBrowser(String os, String osVersion, String br, String browserVersion)
@@ -25,7 +24,7 @@ public class FillingChatBox extends SampleTestSuiteBase
 	}
 	
 	@Test(dataProvider = "readData", dataProviderClass = FormFillingDataProvider.class)
-	public void Form_filling(String userName,String mobileNumber, String userMail)
+	public void Form_filling(String userName,String mobileNumber, String userMail) 
 	{
 		// Handling Frames
 		FillingChatFormPage fillingForm = new FillingChatFormPage(browser);
@@ -47,6 +46,7 @@ public class FillingChatBox extends SampleTestSuiteBase
 		fillingForm.selectValueFromDropDown();
 		
 		fillingForm.clickChatButton();
+		
 	}
 	
 	@AfterMethod

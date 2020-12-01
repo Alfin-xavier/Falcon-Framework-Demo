@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon-Sample-WIN_10_firefox_83]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="browserVersion" value="83"/>
+  <test thread-count="5" name="SampleTest(failed)">
+    <classes>
+      <class name="com.atmecs.falcon_framework.testscript.FillingChatBox">
+        <methods>
+          <include name="preSetup"/>
+          <include name="closeBrowser"/>
+          <include name="Form_filling" invocation-numbers="1 2 3"/>
+          <include name="initBrowser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.atmecs.falcon_framework.testscript.FillingChatBox -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [Falcon-Sample-WIN_10_firefox_83] -->

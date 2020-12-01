@@ -20,7 +20,7 @@ public class PropertyReader
 			e.printStackTrace();
 		}
 	}
-	public String get(String key)
+	public String getValue(String key)
 	{
 		return properties.getProperty(key);
 	}

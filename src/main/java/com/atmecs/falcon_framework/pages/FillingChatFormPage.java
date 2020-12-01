@@ -27,35 +27,35 @@ public class FillingChatFormPage extends BasePage
 		browser.openURL(appUrl, os, osVersion, br, browserVersion);
 		report.info("Maximizing browser window");
 		browser.maximizeWindow();
-		browser.getWait().safeWait(10000);
+		browser.getWait().safeWait(25000);
 	}
 	
 	public void enterUserName(String string)
 	{
 		browser.getWait().safeWait(3000);
 		report.info("Entering name");
-		browser.getTextField().enterTextField(LocatorType.XPATH, formFilling.get("username"), string);
+		browser.getTextField().enterTextField(LocatorType.XPATH, formFilling.getValue("username"), string);
 	}
 	
 	public void enterMobileNumber(String string)
 	{
 		browser.getWait().safeWait(3000);
 		report.info("Entering number");
-		browser.getTextField().enterTextField(LocatorType.XPATH, formFilling.get("mobile"), string);
+		browser.getTextField().enterTextField(LocatorType.XPATH, formFilling.getValue("mobile"), string);
 	}
 	
 	public void enterUserMail(String string)
 	{
 		browser.getWait().safeWait(3000);
 		report.info("Entering mail");
-		browser.getTextField().enterTextField(LocatorType.XPATH, formFilling.get("usermail"), string);
+		browser.getTextField().enterTextField(LocatorType.XPATH, formFilling.getValue("usermail"), string);
 	}
 	
 	public void clickChatButton()
 	{
 		browser.getWait().safeWait(3000);
 		report.info("Starting the chat");
-		browser.getClick().performClick(LocatorType.XPATH, formFilling.get("chatbutton"));
+		browser.getClick().performClick(LocatorType.XPATH, formFilling.getValue("chatbutton"));
 		browser.getWait().safeWait(2000);
 	}
 	
@@ -63,28 +63,29 @@ public class FillingChatFormPage extends BasePage
 	{
 		report.info("Switching to frame");
 		browser.getWindowHandler().handleFrame()
-				.switchToFrame(browser.getDriver().findElement(By.xpath(formFilling.get("frame"))));
+		.switchToFrame(browser.getFindFromBrowser().findElementByXpath((formFilling.getValue("frame"))));
+
 	}
 	
 	public void clickChatIcon()
 	{
 		browser.getWait().safeWait(3000);
 		report.info("Clicking chat icon");
-		browser.getClick().performClick(LocatorType.XPATH, formFilling.get("chaticon"));
+		browser.getClick().performClick(LocatorType.XPATH, formFilling.getValue("chaticon"));
 	}
 	
 	public void clickCheckbox()
 	{
 		browser.getWait().safeWait(3000);
 		report.info("Clicking the Checkbox");
-		browser.getClick().performClick(LocatorType.XPATH, formFilling.get("checkbox"));
+		browser.getClick().performClick(LocatorType.XPATH, formFilling.getValue("checkbox"));
 	}
 	
 	public void selectValueFromDropDown()
 	{
 		browser.getWait().safeWait(3000);
 		report.info("Clicking dropdown");
-		browser.getDropdown().selectByVisibleText(LocatorType.XPATH, formFilling.get("dropdown_selection"), "Yes");
+		browser.getDropdown().selectByVisibleText(LocatorType.XPATH, formFilling.getValue("dropdown_selection"), "Yes");
 	
 	}
 }

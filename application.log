@@ -1,7 +1,56 @@
-2020-11-30 17:33:40,945  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
-2020-11-30 17:33:40,945  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: gecko
-2020-11-30 17:33:40,972  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: gecko
-2020-11-30 17:33:40,978  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: gecko
-2020-11-30 17:33:40,982  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: gecko
-2020-11-30 17:33:41,000  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: gecko
-2020-11-30 17:33:41,008  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: gecko
+2020-12-01 15:19:54,249  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: firefox
+2020-12-01 15:20:15,002  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Maximizing browser window
+2020-12-01 15:20:40,017  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Switching to frame
+2020-12-01 15:20:40,053  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] WindowHandlerImpl:51 - Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (ffed8c8b-dba0-4dd2-af11-729bedface95)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-01 15:20:43,054  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Clicking chat icon
+2020-12-01 15:20:46,363  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Entering name
+2020-12-01 15:20:49,467  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Entering number
+2020-12-01 15:20:52,597  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Entering mail
+2020-12-01 15:20:55,701  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Clicking the Checkbox
+2020-12-01 15:20:58,979  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Clicking dropdown
+2020-12-01 15:21:02,230  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Starting the chat
+2020-12-01 15:21:06,255  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: firefox
+2020-12-01 15:21:29,957  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Maximizing browser window
+2020-12-01 15:21:54,962  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Switching to frame
+2020-12-01 15:21:58,032  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Clicking chat icon
+2020-12-01 15:21:58,044  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] LogReport:29 - This method return the locator data in a object format
+2020-12-01 15:22:01,119  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Entering name
+2020-12-01 15:22:01,131  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] LogReport:29 - This method return the locator data in a object format
+2020-12-01 15:22:03,355  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: firefox
+2020-12-01 15:22:17,820  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Maximizing browser window
+2020-12-01 15:22:42,825  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Switching to frame
+2020-12-01 15:22:45,892  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Clicking chat icon
+2020-12-01 15:22:45,912  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] LogReport:29 - This method return the locator data in a object format
+2020-12-01 15:22:48,985  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Entering name
+2020-12-01 15:22:49,001  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] LogReport:29 - This method return the locator data in a object format
+2020-12-01 15:22:53,487  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: firefox
+2020-12-01 15:23:12,653  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Maximizing browser window
+2020-12-01 15:23:37,658  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Switching to frame
+2020-12-01 15:23:40,716  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Clicking chat icon
+2020-12-01 15:23:40,732  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] LogReport:29 - This method return the locator data in a object format
+2020-12-01 15:23:43,824  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Entering name
+2020-12-01 15:23:43,836  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] LogReport:29 - This method return the locator data in a object format
+2020-12-01 15:23:46,358  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: firefox
+2020-12-01 15:24:06,985  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Maximizing browser window
+2020-12-01 15:24:31,991  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Switching to frame
+2020-12-01 15:24:32,050  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] WindowHandlerImpl:51 - Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (d7125b3a-8856-47ed-bd49-c0e4338439ff)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-01 15:24:35,052  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Clicking chat icon
+2020-12-01 15:24:38,331  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Entering name
+2020-12-01 15:24:41,420  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Entering number
+2020-12-01 15:24:44,513  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Entering mail
+2020-12-01 15:24:47,612  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Clicking the Checkbox
+2020-12-01 15:24:50,876  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Clicking dropdown
+2020-12-01 15:24:54,149  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Starting the chat
+2020-12-01 15:24:59,926  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Opening browser: firefox
+2020-12-01 15:25:09,950  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Maximizing browser window
+2020-12-01 15:25:34,957  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Switching to frame
+2020-12-01 15:25:35,017  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] WindowHandlerImpl:51 - Navigated to frame with element [[FirefoxDriver: firefox on WINDOWS (c65ac760-7fc3-4512-8960-66caf5fbda41)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-01 15:25:38,019  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Clicking chat icon
+2020-12-01 15:25:41,301  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Entering name
+2020-12-01 15:25:44,366  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Entering number
+2020-12-01 15:25:47,435  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Entering mail
+2020-12-01 15:25:50,485  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Clicking the Checkbox
+2020-12-01 15:25:53,771  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Clicking dropdown
+2020-12-01 15:25:57,047  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] FillingChatBox:51 - Starting the chat
+2020-12-01 15:26:03,068  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
+2020-12-01 15:26:03,150 ERROR [com.atmecs.falcon_framework.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
