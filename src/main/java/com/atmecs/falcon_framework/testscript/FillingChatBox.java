@@ -6,6 +6,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import com.atmecs.falcon.automation.util.parser.PropertyParser;
 import com.atmecs.falcon_framework.pages.FillingChatFormPage;
+import com.atmecs.falcon_framework.pages.TestDataObject;
 import com.atmecs.falcon_framework.testsuite.SampleTestSuiteBase;
 import com.atmecs.falcon_framework.util.FormFillingDataProvider;
 
@@ -24,7 +25,7 @@ public class FillingChatBox extends SampleTestSuiteBase
 	}
 	
 	@Test(dataProvider = "readData", dataProviderClass = FormFillingDataProvider.class)
-	public void Form_filling(String userName,String mobileNumber, String userMail) 
+	public void Form_filling(TestDataObject testDataObject) 
 	{
 		// Handling Frames
 		FillingChatFormPage fillingForm = new FillingChatFormPage(browser);
@@ -35,11 +36,11 @@ public class FillingChatBox extends SampleTestSuiteBase
 		
 		fillingForm.clickChatIcon();
 		
-		fillingForm.enterUserName(userName);
+		fillingForm.enterUserName(testDataObject.getUserName());
 		
-		fillingForm.enterMobileNumber(mobileNumber);
+		fillingForm.enterMobileNumber(testDataObject.getMobileNumber());
 		
-		fillingForm.enterUserMail(userMail);
+		fillingForm.enterUserMail(testDataObject.getUserMail());
 		
 		fillingForm.clickCheckbox();
 		

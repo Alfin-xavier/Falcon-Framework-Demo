@@ -3,6 +3,7 @@ package com.atmecs.falcon_framework.util;
 import java.io.IOException;
 import com.atmecs.falcon.automation.util.parser.XlsReader;
 import com.atmecs.falcon_framework.constant.FilePathConstants;
+import com.atmecs.falcon_framework.pages.TestDataObject;
 
 public class ReadingDataFromXslx 
 {
@@ -18,16 +19,20 @@ public class ReadingDataFromXslx
 		
 		int columnCount = xlsReader.getColumnCount(sheetname);
 		
-		data= new Object[rowCount][columnCount];
+		data= new Object[rowCount][1];
 		
 		for(int rowIndex = 1 ; rowIndex < rowCount + 1; rowIndex ++) 
 		{ 
-			for(int columnIndex = 0; columnIndex < columnCount; columnIndex ++) 
-			{
-				String datas = xlsReader.getCellDataByColumnIndex(sheetname, columnIndex, rowIndex);
-				
-				data[rowIndex - 1][columnIndex] = datas;
-			}
+			TestDataObject testData = new TestDataObject();
+			
+			testData.setUserName(xlsReader.getCellDataByColumnIndex(sheetname, 0, rowIndex));
+			
+			testData.setMobileNumber(xlsReader.getCellDataByColumnIndex(sheetname, 1, rowIndex));
+			
+			testData.setUserMail(xlsReader.getCellDataByColumnIndex(sheetname, 2, rowIndex));
+			
+			data[rowIndex - 1][0] = testData;
+		
 		}
 		return data;
     }
