@@ -1,6 +1,5 @@
 package com.atmecs.falcon_framework.pages;
 
-import org.openqa.selenium.By;
 import com.atmecs.falcon.automation.ui.selenium.Browser;
 import com.atmecs.falcon.automation.util.enums.LocatorType;
 import com.atmecs.falcon.automation.util.reporter.ReportLogService;
