@@ -1,110 +1,104 @@
-2020-12-04 13:05:07,427  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
-2020-12-04 13:05:07,427  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: firefox
-2020-12-04 13:05:17,830  INFO [TestNG-suites-1] FillingChatBox:51 - Maximizing browser window
-2020-12-04 13:05:18,984  INFO [TestNG-suites-2] FillingChatBox:51 - Maximizing browser window
-2020-12-04 13:05:44,113  INFO [TestNG-suites-2] FillingChatBox:51 - Switching to frame
-2020-12-04 13:05:44,887  INFO [TestNG-suites-2] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (72cf49f3-3b59-493a-b3d7-b03a305d8e9e)] -> xpath: //iframe[@id='chat-widget']]
-2020-12-04 13:05:45,046  INFO [TestNG-suites-1] FillingChatBox:51 - Switching to frame
-2020-12-04 13:05:45,647  INFO [TestNG-suites-1] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: chrome on WINDOWS (74a619c3bc35757d8fa2a183534b78dd)] -> xpath: //iframe[@id='chat-widget']]
-2020-12-04 13:05:47,892  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking chat icon
-2020-12-04 13:05:48,651  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking chat icon
-2020-12-04 13:05:51,693  INFO [TestNG-suites-2] FillingChatBox:51 - Entering name
-2020-12-04 13:05:52,105  INFO [TestNG-suites-1] FillingChatBox:51 - Entering name
-2020-12-04 13:05:52,345  INFO [TestNG-suites-1] LogReport:29 - This method return the locator data in a object format
-2020-12-04 13:05:53,252  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
-2020-12-04 13:05:55,328  INFO [TestNG-suites-2] FillingChatBox:51 - Entering number
-2020-12-04 13:05:58,872  INFO [TestNG-suites-2] FillingChatBox:51 - Entering mail
-2020-12-04 13:06:00,264  INFO [TestNG-suites-1] FillingChatBox:51 - Maximizing browser window
-2020-12-04 13:06:02,194  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking the Checkbox
-2020-12-04 13:06:05,596  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking dropdown
-2020-12-04 13:06:09,441  INFO [TestNG-suites-2] FillingChatBox:51 - Starting the chat
-2020-12-04 13:06:15,050  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: firefox
-2020-12-04 13:06:24,850  INFO [TestNG-suites-2] FillingChatBox:51 - Maximizing browser window
-2020-12-04 13:06:27,440  INFO [TestNG-suites-1] FillingChatBox:51 - Switching to frame
-2020-12-04 13:06:28,172  INFO [TestNG-suites-1] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: chrome on WINDOWS (c873cc5ef33e5f43348df614df92572c)] -> xpath: //iframe[@id='chat-widget']]
-2020-12-04 13:06:31,175  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking chat icon
-2020-12-04 13:06:34,627  INFO [TestNG-suites-1] FillingChatBox:51 - Entering name
-2020-12-04 13:06:34,801  INFO [TestNG-suites-1] LogReport:29 - This method return the locator data in a object format
-2020-12-04 13:06:35,575  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
-2020-12-04 13:06:41,928  INFO [TestNG-suites-1] FillingChatBox:51 - Maximizing browser window
-2020-12-04 13:06:49,932  INFO [TestNG-suites-2] FillingChatBox:51 - Switching to frame
-2020-12-04 13:06:50,485  INFO [TestNG-suites-2] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (2abce0ba-29e8-486f-bc29-c71e3a1f8720)] -> xpath: //iframe[@id='chat-widget']]
-2020-12-04 13:06:53,489  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking chat icon
-2020-12-04 13:06:57,181  INFO [TestNG-suites-2] FillingChatBox:51 - Entering name
-2020-12-04 13:07:00,551  INFO [TestNG-suites-2] FillingChatBox:51 - Entering number
-2020-12-04 13:07:03,863  INFO [TestNG-suites-2] FillingChatBox:51 - Entering mail
-2020-12-04 13:07:07,202  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking the Checkbox
-2020-12-04 13:07:09,177  INFO [TestNG-suites-1] FillingChatBox:51 - Switching to frame
-2020-12-04 13:07:09,732  INFO [TestNG-suites-1] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: chrome on WINDOWS (0b094428e7dd82284d88772f6c09eb5c)] -> xpath: //iframe[@id='chat-widget']]
-2020-12-04 13:07:10,861  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking dropdown
-2020-12-04 13:07:12,734  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking chat icon
-2020-12-04 13:07:15,019  INFO [TestNG-suites-2] FillingChatBox:51 - Starting the chat
-2020-12-04 13:07:16,412  INFO [TestNG-suites-1] FillingChatBox:51 - Entering name
-2020-12-04 13:07:16,522  INFO [TestNG-suites-1] LogReport:29 - This method return the locator data in a object format
-2020-12-04 13:07:17,168  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
-2020-12-04 13:07:20,580  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: firefox
-2020-12-04 13:36:03,242  INFO [TestNG-suites-1] FillingChatBox:51 - Maximizing browser window
-2020-12-04 13:36:23,577  INFO [TestNG-suites-2] FillingChatBox:51 - Maximizing browser window
-2020-12-04 13:36:30,413  INFO [TestNG-suites-1] FillingChatBox:51 - Switching to frame
-2020-12-04 13:36:30,767  INFO [TestNG-suites-1] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: chrome on WINDOWS (f33b74fdc731dd9b5f2068e1cb3d11bb)] -> xpath: //iframe[@id='chat-widget']]
-2020-12-04 13:36:33,768  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking chat icon
-2020-12-04 13:36:37,265  INFO [TestNG-suites-1] FillingChatBox:51 - Entering name
-2020-12-04 13:36:37,460  INFO [TestNG-suites-1] LogReport:29 - This method return the locator data in a object format
-2020-12-04 13:36:38,209  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
-2020-12-04 13:36:45,534  INFO [TestNG-suites-1] FillingChatBox:51 - Maximizing browser window
-2020-12-04 13:36:48,652  INFO [TestNG-suites-2] FillingChatBox:51 - Switching to frame
-2020-12-04 13:36:49,063  INFO [TestNG-suites-2] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (6c3c6dc5-7377-49bb-a0ae-3f485026493b)] -> xpath: //iframe[@id='chat-widget']]
-2020-12-04 13:36:52,067  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking chat icon
-2020-12-04 13:36:55,523  INFO [TestNG-suites-2] FillingChatBox:51 - Entering name
-2020-12-04 13:36:59,042  INFO [TestNG-suites-2] FillingChatBox:51 - Entering number
-2020-12-04 13:37:02,675  INFO [TestNG-suites-2] FillingChatBox:51 - Entering mail
-2020-12-04 13:37:06,001  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking the Checkbox
-2020-12-04 13:37:09,732  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking dropdown
-2020-12-04 13:37:12,767  INFO [TestNG-suites-1] FillingChatBox:51 - Switching to frame
-2020-12-04 13:37:13,669  INFO [TestNG-suites-2] FillingChatBox:51 - Starting the chat
-2020-12-04 13:37:13,680  INFO [TestNG-suites-1] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: chrome on WINDOWS (ed5656d793cdc3f5b1c2806ef94d8c7e)] -> xpath: //iframe[@id='chat-widget']]
-2020-12-04 13:37:16,686  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking chat icon
-2020-12-04 13:37:19,926  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: firefox
-2020-12-04 13:37:20,483  INFO [TestNG-suites-1] FillingChatBox:51 - Entering name
-2020-12-04 13:37:20,601  INFO [TestNG-suites-1] LogReport:29 - This method return the locator data in a object format
-2020-12-04 13:37:21,519  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
-2020-12-04 13:37:29,101  INFO [TestNG-suites-1] FillingChatBox:51 - Maximizing browser window
-2020-12-04 13:37:30,553  INFO [TestNG-suites-2] FillingChatBox:51 - Maximizing browser window
-2020-12-04 13:37:55,634  INFO [TestNG-suites-2] FillingChatBox:51 - Switching to frame
-2020-12-04 13:37:56,254  INFO [TestNG-suites-2] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (745e6000-370a-49e7-9994-a9cd42a68f6e)] -> xpath: //iframe[@id='chat-widget']]
-2020-12-04 13:37:56,346  INFO [TestNG-suites-1] FillingChatBox:51 - Switching to frame
-2020-12-04 13:37:57,048  INFO [TestNG-suites-1] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: chrome on WINDOWS (33eae8525c1661e7c84d9747ef23c34d)] -> xpath: //iframe[@id='chat-widget']]
-2020-12-04 13:37:59,261  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking chat icon
-2020-12-04 13:38:00,052  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking chat icon
-2020-12-04 13:38:02,887  INFO [TestNG-suites-2] FillingChatBox:51 - Entering name
-2020-12-04 13:38:03,440  INFO [TestNG-suites-1] FillingChatBox:51 - Entering name
-2020-12-04 13:38:03,611  INFO [TestNG-suites-1] LogReport:29 - This method return the locator data in a object format
-2020-12-04 13:38:06,306  INFO [TestNG-suites-2] FillingChatBox:51 - Entering number
-2020-12-04 13:38:09,886  INFO [TestNG-suites-2] FillingChatBox:51 - Entering mail
-2020-12-04 13:38:13,391  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking the Checkbox
-2020-12-04 13:38:17,047  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking dropdown
-2020-12-04 13:38:21,109  INFO [TestNG-suites-2] FillingChatBox:51 - Starting the chat
-2020-12-04 13:38:27,412  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: firefox
-2020-12-04 13:38:36,903  INFO [TestNG-suites-2] FillingChatBox:51 - Maximizing browser window
-2020-12-04 13:39:01,956  INFO [TestNG-suites-2] FillingChatBox:51 - Switching to frame
-2020-12-04 13:39:02,485  INFO [TestNG-suites-2] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (57b18225-8ade-4aab-8611-8fcab83d985c)] -> xpath: //iframe[@id='chat-widget']]
-2020-12-04 13:39:05,487  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking chat icon
-2020-12-04 13:39:09,164  INFO [TestNG-suites-2] FillingChatBox:51 - Entering name
-2020-12-04 13:39:12,741  INFO [TestNG-suites-2] FillingChatBox:51 - Entering number
-2020-12-04 13:39:16,413  INFO [TestNG-suites-2] FillingChatBox:51 - Entering mail
-2020-12-04 13:39:19,904  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking the Checkbox
-2020-12-04 13:39:23,386  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking dropdown
-2020-12-04 13:39:27,178  INFO [TestNG-suites-2] FillingChatBox:51 - Starting the chat
-2020-12-04 13:39:32,705  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: firefox
-2020-12-04 14:06:57,779  INFO [TestNG-suites-2] FillingChatBox:51 - Maximizing browser window
-2020-12-04 14:07:22,847  INFO [TestNG-suites-2] FillingChatBox:51 - Switching to frame
-2020-12-04 14:07:23,481  INFO [TestNG-suites-2] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (9931ba60-5f16-4e05-8e73-702a2b8a0aec)] -> xpath: //iframe[@id='chat-widget']]
-2020-12-04 14:07:26,485  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking chat icon
-2020-12-04 14:07:30,150  INFO [TestNG-suites-2] FillingChatBox:51 - Entering name
-2020-12-04 14:07:33,424  INFO [TestNG-suites-2] FillingChatBox:51 - Entering number
-2020-12-04 14:07:36,903  INFO [TestNG-suites-2] FillingChatBox:51 - Entering mail
-2020-12-04 14:07:40,404  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking the Checkbox
-2020-12-04 14:07:44,037  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking dropdown
-2020-12-04 14:07:47,813  INFO [TestNG-suites-2] FillingChatBox:51 - Starting the chat
-2020-12-04 14:07:53,673  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
-2020-12-04 14:07:54,041 ERROR [com.atmecs.falcon_framework.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
+2020-12-04 16:12:31,023  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: firefox
+2020-12-04 16:12:31,023  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
+2020-12-04 16:12:54,072  INFO [TestNG-suites-1] FillingChatBox:51 - Maximizing browser window
+2020-12-04 16:13:22,191  INFO [TestNG-suites-1] FillingChatBox:51 - Switching to frame
+2020-12-04 16:13:43,881  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: firefox
+2020-12-04 16:13:43,956  INFO [TestNG-suites-1] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: chrome on WINDOWS (2230861cfb3ffc40beb8d92e11b5a6ba)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-04 16:13:46,958  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking chat icon
+2020-12-04 16:13:55,529  INFO [TestNG-suites-1] FillingChatBox:51 - Entering name
+2020-12-04 16:13:56,455  INFO [TestNG-suites-1] LogReport:29 - This method return the locator data in a object format
+2020-12-04 16:14:12,317  INFO [TestNG-suites-2] FillingChatBox:51 - Maximizing browser window
+2020-12-04 16:14:28,999  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
+2020-12-04 16:14:37,361  INFO [TestNG-suites-2] FillingChatBox:51 - Switching to frame
+2020-12-04 16:14:37,979  INFO [TestNG-suites-2] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (676bc11a-220d-4e80-97ec-042756ae676c)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-04 16:14:40,981  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking chat icon
+2020-12-04 16:14:45,007  INFO [TestNG-suites-2] FillingChatBox:51 - Entering name
+2020-12-04 16:14:45,118  INFO [TestNG-suites-2] LogReport:29 - This method return the locator data in a object format
+2020-12-04 16:14:50,601  INFO [TestNG-suites-1] FillingChatBox:51 - Maximizing browser window
+2020-12-04 16:14:50,749  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: firefox
+2020-12-04 16:15:17,762  INFO [TestNG-suites-1] FillingChatBox:51 - Switching to frame
+2020-12-04 16:15:18,111  INFO [TestNG-suites-1] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: chrome on WINDOWS (7c2b0fb0a88d7c4d64cf8bcf4b5faf54)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-04 16:15:21,114  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking chat icon
+2020-12-04 16:15:21,857  INFO [TestNG-suites-2] FillingChatBox:51 - Maximizing browser window
+2020-12-04 16:15:24,511  INFO [TestNG-suites-1] FillingChatBox:51 - Entering name
+2020-12-04 16:15:24,633  INFO [TestNG-suites-1] LogReport:29 - This method return the locator data in a object format
+2020-12-04 16:15:27,600  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
+2020-12-04 16:15:34,943  INFO [TestNG-suites-1] FillingChatBox:51 - Maximizing browser window
+2020-12-04 16:15:46,977  INFO [TestNG-suites-2] FillingChatBox:51 - Switching to frame
+2020-12-04 16:15:47,330  INFO [TestNG-suites-2] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (0da32ce5-0029-4740-b0f8-b4a79287e307)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-04 16:15:50,334  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking chat icon
+2020-12-04 16:15:53,773  INFO [TestNG-suites-2] FillingChatBox:51 - Entering name
+2020-12-04 16:15:57,228  INFO [TestNG-suites-2] FillingChatBox:51 - Entering number
+2020-12-04 16:16:00,540  INFO [TestNG-suites-2] FillingChatBox:51 - Entering mail
+2020-12-04 16:16:02,096  INFO [TestNG-suites-1] FillingChatBox:51 - Switching to frame
+2020-12-04 16:16:02,375  INFO [TestNG-suites-1] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: chrome on WINDOWS (24a50ff166898fc8c2f066c8e7112cbd)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-04 16:16:03,923  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking the Checkbox
+2020-12-04 16:16:05,378  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking chat icon
+2020-12-04 16:16:07,417  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking dropdown
+2020-12-04 16:16:08,623  INFO [TestNG-suites-1] FillingChatBox:51 - Entering name
+2020-12-04 16:16:08,717  INFO [TestNG-suites-1] LogReport:29 - This method return the locator data in a object format
+2020-12-04 16:16:09,201  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
+2020-12-04 16:16:11,140  INFO [TestNG-suites-2] FillingChatBox:51 - Starting the chat
+2020-12-04 16:16:16,735  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: firefox
+2020-12-04 16:44:42,460  INFO [TestNG-suites-1] FillingChatBox:51 - Maximizing browser window
+2020-12-04 16:45:09,885  INFO [TestNG-suites-1] FillingChatBox:51 - Switching to frame
+2020-12-04 16:45:11,451  INFO [TestNG-suites-1] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: chrome on WINDOWS (2a1640240ee26dcd69a81c93f764a920)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-04 16:45:14,456  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking chat icon
+2020-12-04 16:45:18,002  INFO [TestNG-suites-1] FillingChatBox:51 - Entering name
+2020-12-04 16:45:18,088  INFO [TestNG-suites-1] LogReport:29 - This method return the locator data in a object format
+2020-12-04 16:45:19,080  INFO [TestNG-suites-2] FillingChatBox:51 - Maximizing browser window
+2020-12-04 16:45:21,108  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
+2020-12-04 16:45:36,318  INFO [TestNG-suites-1] FillingChatBox:51 - Maximizing browser window
+2020-12-04 16:45:44,324  INFO [TestNG-suites-2] FillingChatBox:51 - Switching to frame
+2020-12-04 16:45:44,601  INFO [TestNG-suites-2] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (23983beb-0bdc-4118-b4a7-31d212ee676a)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-04 16:45:47,603  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking chat icon
+2020-12-04 16:45:51,119  INFO [TestNG-suites-2] FillingChatBox:51 - Entering name
+2020-12-04 16:45:54,510  INFO [TestNG-suites-2] FillingChatBox:51 - Entering number
+2020-12-04 16:45:57,995  INFO [TestNG-suites-2] FillingChatBox:51 - Entering mail
+2020-12-04 16:46:01,431  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking the Checkbox
+2020-12-04 16:46:03,507  INFO [TestNG-suites-1] FillingChatBox:51 - Switching to frame
+2020-12-04 16:46:04,090  INFO [TestNG-suites-1] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: chrome on WINDOWS (9834bf51ad87a4fbaf0617bd78f11bf1)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-04 16:46:05,049  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking dropdown
+2020-12-04 16:46:07,093  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking chat icon
+2020-12-04 16:46:09,052  INFO [TestNG-suites-2] FillingChatBox:51 - Starting the chat
+2020-12-04 16:46:10,693  INFO [TestNG-suites-1] FillingChatBox:51 - Entering name
+2020-12-04 16:46:14,283  INFO [TestNG-suites-1] FillingChatBox:51 - Entering number
+2020-12-04 16:46:15,956  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: firefox
+2020-12-04 16:46:18,927  INFO [TestNG-suites-1] FillingChatBox:51 - Entering mail
+2020-12-04 16:46:23,154  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking the Checkbox
+2020-12-04 16:46:27,451  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking dropdown
+2020-12-04 16:46:27,925  INFO [TestNG-suites-2] FillingChatBox:51 - Maximizing browser window
+2020-12-04 16:46:32,296  INFO [TestNG-suites-1] FillingChatBox:51 - Starting the chat
+2020-12-04 16:46:37,898  INFO [TestNG-suites-1] FillingChatBox:51 - Opening browser: chrome
+2020-12-04 16:46:44,879  INFO [TestNG-suites-1] FillingChatBox:51 - Maximizing browser window
+2020-12-04 16:46:53,228  INFO [TestNG-suites-2] FillingChatBox:51 - Switching to frame
+2020-12-04 16:46:53,757  INFO [TestNG-suites-2] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (914b956e-3743-465e-aa68-02999631fc3d)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-04 16:46:56,760  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking chat icon
+2020-12-04 16:47:00,534  INFO [TestNG-suites-2] FillingChatBox:51 - Entering name
+2020-12-04 16:47:04,038  INFO [TestNG-suites-2] FillingChatBox:51 - Entering number
+2020-12-04 16:47:07,419  INFO [TestNG-suites-2] FillingChatBox:51 - Entering mail
+2020-12-04 16:47:10,843  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking the Checkbox
+2020-12-04 16:47:12,069  INFO [TestNG-suites-1] FillingChatBox:51 - Switching to frame
+2020-12-04 16:47:12,671  INFO [TestNG-suites-1] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: chrome on WINDOWS (124d3fee8e49413512e44218b43dd7af)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-04 16:47:14,906  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking dropdown
+2020-12-04 16:47:15,675  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking chat icon
+2020-12-04 16:47:18,579  INFO [TestNG-suites-2] FillingChatBox:51 - Starting the chat
+2020-12-04 16:47:19,210  INFO [TestNG-suites-1] FillingChatBox:51 - Entering name
+2020-12-04 16:47:22,643  INFO [TestNG-suites-1] FillingChatBox:51 - Entering number
+2020-12-04 16:47:25,737  INFO [TestNG-suites-2] FillingChatBox:51 - Opening browser: firefox
+2020-12-04 16:47:26,196  INFO [TestNG-suites-1] FillingChatBox:51 - Entering mail
+2020-12-04 16:47:29,651  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking the Checkbox
+2020-12-04 16:47:33,229  INFO [TestNG-suites-1] FillingChatBox:51 - Clicking dropdown
+2020-12-04 16:47:37,254  INFO [TestNG-suites-1] FillingChatBox:51 - Starting the chat
+2020-12-04 16:47:50,631  INFO [TestNG-suites-2] FillingChatBox:51 - Maximizing browser window
+2020-12-04 16:48:15,703  INFO [TestNG-suites-2] FillingChatBox:51 - Switching to frame
+2020-12-04 16:48:16,320  INFO [TestNG-suites-2] WindowHandlerImpl:51 - Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (d7d5da9c-ee7d-41d8-8f08-f4a4785eb4a1)] -> xpath: //iframe[@id='chat-widget']]
+2020-12-04 16:48:19,326  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking chat icon
+2020-12-04 16:48:22,917  INFO [TestNG-suites-2] FillingChatBox:51 - Entering name
+2020-12-04 16:48:26,218  INFO [TestNG-suites-2] FillingChatBox:51 - Entering number
+2020-12-04 16:48:29,798  INFO [TestNG-suites-2] FillingChatBox:51 - Entering mail
+2020-12-04 16:48:33,235  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking the Checkbox
+2020-12-04 16:48:36,824  INFO [TestNG-suites-2] FillingChatBox:51 - Clicking dropdown
+2020-12-04 16:48:40,792  INFO [TestNG-suites-2] FillingChatBox:51 - Starting the chat
+2020-12-04 16:48:49,322  INFO [com.atmecs.falcon_framework.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
+2020-12-04 16:48:49,326 ERROR [com.atmecs.falcon_framework.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
