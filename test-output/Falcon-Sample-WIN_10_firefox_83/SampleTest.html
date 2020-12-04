@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>SampleTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 03 17:13:42 IST 2020</td>
+<td>Started on:</td><td>Fri Dec 04 13:05:06 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4812 ms)</td>
+<tr><td>Total time:</td><td>3767 seconds (3767313 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,130 +68,63 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling()'><b>Form_filling</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: com.atmecs.falcon_framework.pages.TestDataObject@51d53085<br/>
-<a href="#Output-2041335989" onClick='toggleBox("Output-2041335989", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2041335989" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2041335989">
-Opening browser: firefox<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Command duration or timeout: 1.12 seconds
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeGrid.&lt;init&gt;(RunModeGrid.java:35)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeFactory.getRunMode(RunModeFactory.java:25)
-	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:375)
-	at com.atmecs.falcon_framework.pages.FillingChatFormPage.navigation(FillingChatFormPage.java:26)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:33)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
+<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.teardown()'><b>teardown</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2041335989", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2041335989'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Command duration or timeout: 1.12 seconds
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8336, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 9931ba60-5f16-4e05-8e73-702...}
+Session ID: 9931ba60-5f16-4e05-8e73-702a2b8a0aec
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeGrid.&lt;init&gt;(RunModeGrid.java:35)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeFactory.getRunMode(RunModeFactory.java:25)
-	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:375)
-	at com.atmecs.falcon_framework.pages.FillingChatFormPage.navigation(FillingChatFormPage.java:26)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.falcon.automation.ui.selenium.Browser.closeBrowser(Browser.java:123)
+	at com.atmecs.falcon_framework.testsuite.SampleTestSuiteBase.teardown(SampleTestSuiteBase.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1242411989", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1242411989'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8336, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 9931ba60-5f16-4e05-8e73-702...}
+Session ID: 9931ba60-5f16-4e05-8e73-702a2b8a0aec
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.falcon.automation.ui.selenium.Browser.closeBrowser(Browser.java:123)
+	at com.atmecs.falcon_framework.testsuite.SampleTestSuiteBase.teardown(SampleTestSuiteBase.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
 	at org.testng.TestRunner.run(TestRunner.java:505)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
@@ -200,926 +133,152 @@ Command duration or timeout: 1.12 seconds
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>3</td>
-<td>com.atmecs.falcon_framework.testscript.FillingChatBox@3d3b340a</td></tr>
-<tr>
-<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling()'><b>Form_filling</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: com.atmecs.falcon_framework.pages.TestDataObject@3aac964d<br/>
-<a href="#Output-669088138" onClick='toggleBox("Output-669088138", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-669088138" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-669088138">
-Opening browser: firefox<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Command duration or timeout: 52 milliseconds
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeGrid.&lt;init&gt;(RunModeGrid.java:35)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeFactory.getRunMode(RunModeFactory.java:25)
-	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:375)
-	at com.atmecs.falcon_framework.pages.FillingChatFormPage.navigation(FillingChatFormPage.java:26)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:33)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
-	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace669088138", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace669088138'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Command duration or timeout: 52 milliseconds
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeGrid.&lt;init&gt;(RunModeGrid.java:35)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeFactory.getRunMode(RunModeFactory.java:25)
-	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:375)
-	at com.atmecs.falcon_framework.pages.FillingChatFormPage.navigation(FillingChatFormPage.java:26)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
-	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
 <td>0</td>
-<td>com.atmecs.falcon_framework.testscript.FillingChatBox@3d3b340a</td></tr>
+<td>com.atmecs.falcon_framework.testscript.FillingChatBox@6f6e6edd</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling()'><b>Form_filling</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: com.atmecs.falcon_framework.pages.TestDataObject@281f4ad7<br/>
-<a href="#Output-550375314" onClick='toggleBox("Output-550375314", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling()'><b>Form_filling</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: com.atmecs.falcon_framework.pages.TestDataObject@52931ca5<br/>
+<a href="#Output-614956270" onClick='toggleBox("Output-614956270", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-550375314" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-550375314">
+<a href="#Output-614956270" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-614956270">
 Opening browser: firefox<br/>
+Maximizing browser window<br/>
+Switching to frame<br/>
+Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (72cf49f3-3b59-493a-b3d7-b03a305d8e9e)] -> xpath: //iframe[@id='chat-widget']]<br/>
+Clicking chat icon<br/>
+Entering name<br/>
+Entering number<br/>
+Entering mail<br/>
+Clicking the Checkbox<br/>
+Clicking dropdown<br/>
+Starting the chat<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Command duration or timeout: 36 milliseconds
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeGrid.&lt;init&gt;(RunModeGrid.java:35)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeFactory.getRunMode(RunModeFactory.java:25)
-	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:375)
-	at com.atmecs.falcon_framework.pages.FillingChatFormPage.navigation(FillingChatFormPage.java:26)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:33)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
-	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace550375314", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace550375314'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Command duration or timeout: 36 milliseconds
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeGrid.&lt;init&gt;(RunModeGrid.java:35)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeFactory.getRunMode(RunModeFactory.java:25)
-	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:375)
-	at com.atmecs.falcon_framework.pages.FillingChatFormPage.navigation(FillingChatFormPage.java:26)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
-	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>0</td>
-<td>com.atmecs.falcon_framework.testscript.FillingChatBox@3d3b340a</td></tr>
+<td></td>
+<td>64</td>
+<td>com.atmecs.falcon_framework.testscript.FillingChatBox@6f6e6edd</td></tr>
 <tr>
-<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling()'><b>Form_filling</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: com.atmecs.falcon_framework.pages.TestDataObject@bf065b0<br/>
-<a href="#Output-1145968157" onClick='toggleBox("Output-1145968157", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling()'><b>Form_filling</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: com.atmecs.falcon_framework.pages.TestDataObject@42c5db48<br/>
+<a href="#Output-1514176940" onClick='toggleBox("Output-1514176940", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1145968157" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1145968157">
+<a href="#Output-1514176940" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1514176940">
 Opening browser: firefox<br/>
+Maximizing browser window<br/>
+Switching to frame<br/>
+Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (2abce0ba-29e8-486f-bc29-c71e3a1f8720)] -> xpath: //iframe[@id='chat-widget']]<br/>
+Clicking chat icon<br/>
+Entering name<br/>
+Entering number<br/>
+Entering mail<br/>
+Clicking the Checkbox<br/>
+Clicking dropdown<br/>
+Starting the chat<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Command duration or timeout: 18 milliseconds
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeGrid.&lt;init&gt;(RunModeGrid.java:35)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeFactory.getRunMode(RunModeFactory.java:25)
-	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:375)
-	at com.atmecs.falcon_framework.pages.FillingChatFormPage.navigation(FillingChatFormPage.java:26)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:33)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
-	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1145968157", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1145968157'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Command duration or timeout: 18 milliseconds
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeGrid.&lt;init&gt;(RunModeGrid.java:35)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeFactory.getRunMode(RunModeFactory.java:25)
-	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:375)
-	at com.atmecs.falcon_framework.pages.FillingChatFormPage.navigation(FillingChatFormPage.java:26)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
-	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>0</td>
-<td>com.atmecs.falcon_framework.testscript.FillingChatBox@3d3b340a</td></tr>
+<td></td>
+<td>62</td>
+<td>com.atmecs.falcon_framework.testscript.FillingChatBox@6f6e6edd</td></tr>
 <tr>
-<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling()'><b>Form_filling</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: com.atmecs.falcon_framework.pages.TestDataObject@58bad17f<br/>
-<a href="#Output-1845793408" onClick='toggleBox("Output-1845793408", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling()'><b>Form_filling</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: com.atmecs.falcon_framework.pages.TestDataObject@6c32072b<br/>
+<a href="#Output-70537388" onClick='toggleBox("Output-70537388", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1845793408" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1845793408">
+<a href="#Output-70537388" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-70537388">
 Opening browser: firefox<br/>
+Maximizing browser window<br/>
+Switching to frame<br/>
+Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (6c3c6dc5-7377-49bb-a0ae-3f485026493b)] -> xpath: //iframe[@id='chat-widget']]<br/>
+Clicking chat icon<br/>
+Entering name<br/>
+Entering number<br/>
+Entering mail<br/>
+Clicking the Checkbox<br/>
+Clicking dropdown<br/>
+Starting the chat<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Command duration or timeout: 21 milliseconds
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeGrid.&lt;init&gt;(RunModeGrid.java:35)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeFactory.getRunMode(RunModeFactory.java:25)
-	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:375)
-	at com.atmecs.falcon_framework.pages.FillingChatFormPage.navigation(FillingChatFormPage.java:26)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:33)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
-	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1845793408", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1845793408'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Command duration or timeout: 21 milliseconds
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeGrid.&lt;init&gt;(RunModeGrid.java:35)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeFactory.getRunMode(RunModeFactory.java:25)
-	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:375)
-	at com.atmecs.falcon_framework.pages.FillingChatFormPage.navigation(FillingChatFormPage.java:26)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
-	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>0</td>
-<td>com.atmecs.falcon_framework.testscript.FillingChatBox@3d3b340a</td></tr>
+<td></td>
+<td>1795</td>
+<td>com.atmecs.falcon_framework.testscript.FillingChatBox@6f6e6edd</td></tr>
 <tr>
-<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling()'><b>Form_filling</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: com.atmecs.falcon_framework.pages.TestDataObject@26f0db52<br/>
-<a href="#Output-50865392" onClick='toggleBox("Output-50865392", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling()'><b>Form_filling</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: com.atmecs.falcon_framework.pages.TestDataObject@79353de5<br/>
+<a href="#Output-1873966668" onClick='toggleBox("Output-1873966668", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-50865392" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-50865392">
+<a href="#Output-1873966668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1873966668">
 Opening browser: firefox<br/>
+Maximizing browser window<br/>
+Switching to frame<br/>
+Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (745e6000-370a-49e7-9994-a9cd42a68f6e)] -> xpath: //iframe[@id='chat-widget']]<br/>
+Clicking chat icon<br/>
+Entering name<br/>
+Entering number<br/>
+Entering mail<br/>
+Clicking the Checkbox<br/>
+Clicking dropdown<br/>
+Starting the chat<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Command duration or timeout: 23 milliseconds
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeGrid.&lt;init&gt;(RunModeGrid.java:35)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeFactory.getRunMode(RunModeFactory.java:25)
-	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:375)
-	at com.atmecs.falcon_framework.pages.FillingChatFormPage.navigation(FillingChatFormPage.java:26)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:33)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
-	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace50865392", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace50865392'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Command duration or timeout: 23 milliseconds
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeGrid.&lt;init&gt;(RunModeGrid.java:35)
-	at com.atmecs.falcon.automation.ui.selenium.RunModeFactory.getRunMode(RunModeFactory.java:25)
-	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:375)
-	at com.atmecs.falcon_framework.pages.FillingChatFormPage.navigation(FillingChatFormPage.java:26)
-	at com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling(FillingChatBox.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, platform: WINDOWS}
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
-	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>0</td>
-<td>com.atmecs.falcon_framework.testscript.FillingChatBox@3d3b340a</td></tr>
+<td></td>
+<td>63</td>
+<td>com.atmecs.falcon_framework.testscript.FillingChatBox@6f6e6edd</td></tr>
+<tr>
+<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling()'><b>Form_filling</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: com.atmecs.falcon_framework.pages.TestDataObject@51137f69<br/>
+<a href="#Output-1679827318" onClick='toggleBox("Output-1679827318", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1679827318" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1679827318">
+Opening browser: firefox<br/>
+Maximizing browser window<br/>
+Switching to frame<br/>
+Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (57b18225-8ade-4aab-8611-8fcab83d985c)] -> xpath: //iframe[@id='chat-widget']]<br/>
+Clicking chat icon<br/>
+Entering name<br/>
+Entering number<br/>
+Entering mail<br/>
+Clicking the Checkbox<br/>
+Clicking dropdown<br/>
+Starting the chat<br/>
+</div>
+</td>
+<td></td>
+<td>62</td>
+<td>com.atmecs.falcon_framework.testscript.FillingChatBox@6f6e6edd</td></tr>
+<tr>
+<td title='com.atmecs.falcon_framework.testscript.FillingChatBox.Form_filling()'><b>Form_filling</b><br>Test class: com.atmecs.falcon_framework.testscript.FillingChatBox<br>Parameters: com.atmecs.falcon_framework.pages.TestDataObject@21a365db<br/>
+<a href="#Output-1640924967" onClick='toggleBox("Output-1640924967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1640924967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1640924967">
+Opening browser: firefox<br/>
+Maximizing browser window<br/>
+Switching to frame<br/>
+Navigated to frame with element [[RemoteWebDriver: firefox on WINDOWS (9931ba60-5f16-4e05-8e73-702a2b8a0aec)] -> xpath: //iframe[@id='chat-widget']]<br/>
+Clicking chat icon<br/>
+Entering name<br/>
+Entering number<br/>
+Entering mail<br/>
+Clicking the Checkbox<br/>
+Clicking dropdown<br/>
+Starting the chat<br/>
+</div>
+</td>
+<td></td>
+<td>1697</td>
+<td>com.atmecs.falcon_framework.testscript.FillingChatBox@6f6e6edd</td></tr>
 </table><p>
 </body>
 </html>
